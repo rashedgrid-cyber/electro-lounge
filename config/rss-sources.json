@@ -1,0 +1,86 @@
+{
+  "project": "Electro Lounge",
+  "purpose": "RSS sources are used only as an idea radar for original Electro Lounge content.",
+
+  "settings": {
+    "human_approval_required": true,
+    "auto_publish": false,
+    "copy_source_text": false,
+    "copy_source_images": false,
+    "prefer_technical_topics": true,
+    "duplicate_detection": true
+  },
+
+  "sources": [
+    {
+      "name": "IEEE Power & Energy Society",
+      "category": "Power Systems",
+      "priority": "high",
+      "feed": "https://ieeetv.ieee.org/channel_rss/ieee_power_energy_society/rss"
+    },
+    {
+      "name": "IEEE Smart Grid",
+      "category": "Smart Grid",
+      "priority": "high",
+      "feed": "https://ieeetv.ieee.org/channel_rss/channel_5/rss"
+    },
+    {
+      "name": "IEEE Power Electronics Society",
+      "category": "Power Electronics",
+      "priority": "high",
+      "feed": "https://ieeetv.ieee.org/channel_rss/channel_11/rss"
+    },
+    {
+      "name": "IEEE Industry Applications Society",
+      "category": "Industrial Electrical Engineering",
+      "priority": "medium",
+      "feed": "https://ieeetv.ieee.org/channel_rss/channel_21/rss"
+    },
+    {
+      "name": "IEEE Standards Education",
+      "category": "Standards",
+      "priority": "medium",
+      "feed": "https://ieeetv.ieee.org/channel_rss/channel_86/rss"
+    }
+  ],
+
+  "preferred_topics": [
+    "power systems",
+    "substations",
+    "transformers",
+    "GIS",
+    "switchgear",
+    "protection relays",
+    "IEC 61850",
+    "SCADA",
+    "SAS",
+    "transmission",
+    "HVDC",
+    "FACTS",
+    "renewable energy",
+    "solar PV",
+    "wind power",
+    "BESS",
+    "energy storage",
+    "grid forming inverters",
+    "power electronics",
+    "power quality",
+    "testing and commissioning",
+    "asset management",
+    "grid reliability",
+    "grid resilience",
+    "electrical safety",
+    "digital substations",
+    "artificial intelligence in power systems"
+  ],
+
+  "content_rules": {
+    "use_source_as_idea_only": true,
+    "create_original_article": true,
+    "create_original_title": true,
+    "create_original_description": true,
+    "generate_topic_specific_image": true,
+    "apply_electro_lounge_branding": true,
+    "require_human_approval_before_publish": true
+  }
+}
