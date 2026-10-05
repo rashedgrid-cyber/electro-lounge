@@ -1,6 +1,6 @@
 {
   "project": "Electro Lounge",
-  "version": "1.0",
+  "version": "2.0",
 
   "global_rules": {
     "publishing_language": "English",
@@ -17,13 +17,12 @@
   },
 
   "watchers": [
+
     {
       "id": "W01",
       "name": "Technical RSS and News Radar",
       "scope": "GLOBAL",
-      "outputs": [
-        "TECHNICAL_POST"
-      ],
+      "outputs": ["TECHNICAL_POST"],
       "existing_system": true,
       "existing_config": "config/rss-sources.json"
     },
@@ -63,19 +62,11 @@
       "scope": ["SA", "EG"],
       "outputs": [
         "VENDOR_REGISTRATION",
-        "OPPORTUNITY",
+        "PREQUALIFICATION",
         "B2B_LEAD"
       ],
-      "sources": [
-        {
-          "name": "Saudi Electricity Company Vendor Registration",
-          "country": "SA",
-          "type": "web",
-          "url": "https://www.se.com.sa/suppliers/Home.aspx",
-          "priority": "high",
-          "enabled": true
-        }
-      ]
+      "shared_with": "W02",
+      "enabled": true
     },
 
     {
@@ -87,30 +78,70 @@
         "PRODUCT_REFERRAL",
         "B2B_LEAD"
       ],
+
       "manufacturers": [
-        "Siemens Energy",
-        "Hitachi Energy",
-        "GE Vernova",
-        "Schneider Electric",
-        "ABB",
-        "SEL",
-        "Mitsubishi Electric",
-        "Hyosung Heavy Industries"
+        {
+          "name": "Siemens Energy",
+          "enabled": true
+        },
+        {
+          "name": "Hitachi Energy",
+          "enabled": true
+        },
+        {
+          "name": "GE Vernova",
+          "enabled": true
+        },
+        {
+          "name": "Schneider Electric",
+          "enabled": true
+        },
+        {
+          "name": "ABB",
+          "enabled": true
+        },
+        {
+          "name": "SEL",
+          "full_name": "Schweitzer Engineering Laboratories",
+          "enabled": true
+        },
+        {
+          "name": "Mitsubishi Electric",
+          "enabled": true
+        },
+        {
+          "name": "Hyosung Heavy Industries",
+          "enabled": true
+        }
       ],
+
       "topics": [
-        "transformers",
+        "transformer",
+        "power transformer",
         "GIS",
+        "gas insulated switchgear",
         "switchgear",
-        "protection",
+        "protection relay",
+        "protection system",
         "IEC 61850",
         "SCADA",
-        "digital substations",
+        "SAS",
+        "substation automation",
+        "digital substation",
         "HVDC",
         "FACTS",
+        "STATCOM",
+        "SVC",
         "BESS",
+        "battery energy storage",
         "grid software",
-        "power quality"
-      ]
+        "power quality",
+        "condition monitoring",
+        "asset management",
+        "digital twin"
+      ],
+
+      "enabled": true
     },
 
     {
@@ -119,57 +150,118 @@
       "scope": "GLOBAL",
       "outputs": [
         "TECHNICAL_POST",
+        "STARTUP_TECH",
         "PRODUCT_REFERRAL",
         "B2B_LEAD"
       ],
+
       "topics": [
         "grid technology",
+        "power technology startup",
+        "energy technology startup",
         "AI for utilities",
-        "energy storage",
-        "digital substations",
-        "robotic inspection",
+        "artificial intelligence utility",
+        "AI power grid",
         "predictive maintenance",
-        "asset management",
-        "grid forming inverters",
-        "cybersecurity",
-        "power electronics"
-      ]
+        "condition monitoring",
+        "robotic inspection",
+        "drone inspection",
+        "digital substation",
+        "digital twin",
+        "smart grid",
+        "grid forming inverter",
+        "grid-forming inverter",
+        "battery energy storage",
+        "BESS",
+        "long duration energy storage",
+        "power electronics",
+        "cybersecurity power grid",
+        "substation cybersecurity",
+        "utility cybersecurity",
+        "asset performance management",
+        "virtual power plant",
+        "microgrid",
+        "dynamic line rating",
+        "advanced conductors"
+      ],
+
+      "enabled": true
     },
 
     {
       "id": "W06",
       "name": "Social Media Release Radar",
       "scope": "GLOBAL",
+
       "platforms": [
         "X",
         "Facebook"
       ],
-      "monitor": [
-        "official company accounts",
-        "utilities",
-        "OEMs",
-        "technology providers",
-        "project developers",
-        "government energy organizations"
-      ],
+
       "outputs": [
         "TECHNICAL_POST",
         "OPPORTUNITY",
         "PRODUCT_REFERRAL",
         "B2B_LEAD"
       ],
+
+      "monitor_entities": [
+        "Siemens Energy",
+        "Hitachi Energy",
+        "GE Vernova",
+        "Schneider Electric",
+        "ABB",
+        "SEL",
+        "Mitsubishi Electric",
+        "Hyosung Heavy Industries",
+        "utilities",
+        "transmission operators",
+        "project developers",
+        "renewable developers",
+        "government energy organizations"
+      ],
+
+      "topics": [
+        "new product",
+        "product launch",
+        "new technology",
+        "project award",
+        "contract award",
+        "substation",
+        "transmission project",
+        "transformer",
+        "GIS",
+        "HVDC",
+        "FACTS",
+        "STATCOM",
+        "BESS",
+        "digital substation",
+        "IEC 61850",
+        "protection",
+        "SCADA",
+        "renewable project"
+      ],
+
       "rules": {
         "official_public_accounts_only": true,
         "social_post_is_discovery_signal": true,
         "verify_before_publication": true,
         "save_original_post_url": true,
+        "save_platform": true,
+        "save_account_name": true,
         "do_not_copy_post_text": true,
-        "do_not_copy_source_images": true
-      }
+        "do_not_copy_source_images": true,
+        "do_not_bypass_platform_restrictions": true,
+        "human_approval_required": true
+      },
+
+      "enabled": true
     }
+
   ],
 
   "routing": {
+
     "TECHNICAL_POST": {
       "geography": "GLOBAL",
       "publish_to_site": true,
@@ -177,7 +269,28 @@
       "linkedin_candidate": true
     },
 
+    "STARTUP_TECH": {
+      "geography": "GLOBAL",
+      "publish_to_site": true,
+      "publish_to_rss_after_approval": true,
+      "linkedin_candidate": true
+    },
+
     "OPPORTUNITY": {
+      "geography": ["SA", "EG"],
+      "publish_to_site": true,
+      "publish_to_rss_after_approval": true,
+      "linkedin_candidate": true
+    },
+
+    "VENDOR_REGISTRATION": {
+      "geography": ["SA", "EG"],
+      "publish_to_site": true,
+      "publish_to_rss_after_approval": true,
+      "linkedin_candidate": true
+    },
+
+    "PREQUALIFICATION": {
       "geography": ["SA", "EG"],
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
