@@ -1,0 +1,694 @@
+{
+  "project": "Electro Lounge",
+  "watcher": "W02",
+  "name": "Tender RFQ and Project Radar",
+  "markets": [
+    "Saudi Arabia",
+    "Egypt"
+  ],
+  "generated_at": "2026-10-05T06:54:10.470319+00:00",
+  "new_opportunities_this_run": 32,
+  "opportunity_count": 32,
+  "opportunities": [
+    {
+      "id": "0d120f44f65ccd5fc4a4",
+      "status": "NEW",
+      "title": "Contractor and Vendor Registration",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Business/ColumnC/Pre-qualification-and-Registration/Contractor-and-Vendor-Registration/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "contract",
+        "gis",
+        "vendor"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354474+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "1175e46634dccffa1d6f",
+      "status": "NEW",
+      "title": "Solar PV",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Individual/ColumnC/RenewableEnergy/Solar-PV/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "pv",
+        "solar"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354202+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "9821b6e5885e92c37a64",
+      "status": "NEW",
+      "title": "Contractor and Vendor Pre-qualification",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Business/ColumnC/Pre-qualification-and-Registration/Contractor-and-Vendor-Pre-qualification/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "contract",
+        "vendor"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354454+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "9e452aec8b4a24d1da7c",
+      "status": "NEW",
+      "title": "Solar PV Procedures and Guides",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Sustainability/ColumnA/Solar-Power-Unit/Solar-PV-Procedures-and-Guides/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "pv",
+        "solar"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354925+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "ad390d1f7a863da59635",
+      "status": "NEW",
+      "title": "Vendor Registration",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://s1.mn2.ariba.com/Sourcing/Main/aw?awh=r&awssk=463PLyRP&realm=sec&dard=1",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "gis",
+        "vendor"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.356011+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "1486e70a01bfbd88b7bf",
+      "status": "NEW",
+      "title": "Solar Power Unit",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Sustainability/ColumnA/Solar-Power-Unit/Introduction/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "power",
+        "solar"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.356195+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "d9e4dc1cc723b266b681",
+      "status": "NEW",
+      "title": "Renewable Energy Legislation",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Investors/Legislation",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "gis",
+        "renewable"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468705+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "e6a63f7da20c1b5f56c9",
+      "status": "NEW",
+      "title": "Serving People with dire need for electricity",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Individual/ColumnB/Community-Services/Serving-People/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "electricity"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354097+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "251c0c9f0b0a18442ca2",
+      "status": "NEW",
+      "title": "Bidder Portal",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://srm.se.com.sa:8011/irj/portal",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "bid"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354269+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "a74204719093f4daa25f",
+      "status": "NEW",
+      "title": "Future Projects",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Business/ColumnA/Contractor/Future-Projects/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "project"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354288+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "ea92e5faa04e8aae8ebf",
+      "status": "NEW",
+      "title": "Vendor Portal",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://c-rhq-vrd/e-bid/account/Login",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "vendor"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354364+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "bdfdefb715cc54558f55",
+      "status": "NEW",
+      "title": "Water & Electricity Portal",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://w-jhq-webhostt/test26/Login_Ar.aspx",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "electricity"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354546+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "4eb83042b5a50bf9f2c3",
+      "status": "NEW",
+      "title": "Certified Contractors",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Sustainability/ColumnA/Electric-Vehicles/Certified-Contractors/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "contract"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354843+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "9875d8bfadccb9df8321",
+      "status": "NEW",
+      "title": "Certified Contractors and Consultants",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/en/Sustainability/ColumnA/Solar-Power-Unit/Certified-Contractors-and-Consultants/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "contract"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.354963+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "834525276f1e41a64723",
+      "status": "NEW",
+      "title": "Materials e-Bidding System",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "bid"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.355892+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "e8663714b862970c8c06",
+      "status": "NEW",
+      "title": "Vendor Login",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/account/Login",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "vendor"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.355911+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "4610152bd0366b1df20e",
+      "status": "NEW",
+      "title": "Logistics Details",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/Home/LogisticsInfo",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "gis"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.355929+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "ce1f49ff0e003265b7b5",
+      "status": "NEW",
+      "title": "Bid Box Locations",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/Home/BidBoxLocations",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "bid"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.355959+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "d4a2abbb7ad189afc883",
+      "status": "NEW",
+      "title": "Bid Terms & Condition",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/Home/BidTerms",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "bid"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.355990+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "a9069d34df84aab4f3fe",
+      "status": "NEW",
+      "title": "Vendor Performance Evaluation",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/Home/VendorPerformaceEval",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "vendor"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.356031+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "d81fc40953cfab84c943",
+      "status": "NEW",
+      "title": "e-Bid User Guide",
+      "country": "SA",
+      "source": "Saudi Electricity Company e-Bidding",
+      "source_priority": "high",
+      "source_url": "https://www.se.com.sa/e-Bid/",
+      "source_page": "https://www.se.com.sa/e-Bid/",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "bid"
+      ],
+      "discovered_at": "2026-10-05T06:54:09.356052+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "672e4fe7996f81020313",
+      "status": "NEW",
+      "title": "إستراتيجية الطاقة المتكاملة والمستدامة",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/About/Strategy",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468496+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "bd362a8ffcc1715bcde0",
+      "status": "NEW",
+      "title": "Projects",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Investors/Tender#s2",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "project"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468563+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "31fe570b5fef0f170688",
+      "status": "NEW",
+      "title": "Wind Atlas",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Technology/WindAtlas",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "wind"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468583+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "39b3e6e1415cfb666bde",
+      "status": "NEW",
+      "title": "طاقة الرياح فى مصر",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Technology/WindStations",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468606+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "a202292543dc350c95c7",
+      "status": "NEW",
+      "title": "الطاقة الشمسية فى مصر",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Technology/HeatingSystems",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468645+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "ad4ad754e336092282e7",
+      "status": "NEW",
+      "title": "إحصائيات الطاقة المتجددة",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Technology/SolarThermal",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468666+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "7ae984248235a0db543e",
+      "status": "NEW",
+      "title": "Tenders",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Investors/Tender/1",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "tender"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468767+00:00",
+      "language": "EN",
+      "translation_required": false,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "87ab481260afcaf54737",
+      "status": "NEW",
+      "title": "منصة مصر للطاقة الشمسية",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://pv-hub.org/",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468792+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "22533169b3d01c02135b",
+      "status": "NEW",
+      "title": "إختبارات كفاءة الطاقة",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://services.nrea.gov.eg/p/p182xno9roj4wd97/AboutLabs",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468814+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "bd197a94a2b4cd703749",
+      "status": "NEW",
+      "title": "الأراضى / مواقع الطاقة المتجددة",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://services.nrea.gov.eg/guest/home/land",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "طاقة"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.468835+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    },
+    {
+      "id": "8e67406afd1af27c61ee",
+      "status": "NEW",
+      "title": "المناقصات",
+      "country": "EG",
+      "source": "NREA Egypt Tenders",
+      "source_priority": "high",
+      "source_url": "https://nrea.gov.eg/en/Investors/Tender/1",
+      "source_page": "https://nrea.gov.eg/en/Investors/Tender",
+      "relevance_score": 2,
+      "matched_keywords": [
+        "مناقصات"
+      ],
+      "discovered_at": "2026-10-05T06:54:10.469104+00:00",
+      "language": "AR",
+      "translation_required": true,
+      "classification": [
+        "OPPORTUNITY"
+      ],
+      "approved": false
+    }
+  ]
+}
