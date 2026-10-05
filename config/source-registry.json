@@ -1,0 +1,201 @@
+{
+  "project": "Electro Lounge",
+  "version": "1.0",
+
+  "global_rules": {
+    "publishing_language": "English",
+    "translate_arabic_to_english": true,
+    "human_approval_required": true,
+    "auto_publish": false,
+    "copyright_safe_original_content": true,
+    "technical_market_scope": "GLOBAL",
+    "business_market_scope": ["SA", "EG"],
+    "preserve_source_url_internally": true,
+    "use_real_electro_lounge_logo": true,
+    "use_real_relevant_company_logo": true,
+    "generate_original_topic_representation": true
+  },
+
+  "watchers": [
+    {
+      "id": "W01",
+      "name": "Technical RSS and News Radar",
+      "scope": "GLOBAL",
+      "outputs": [
+        "TECHNICAL_POST"
+      ],
+      "existing_system": true,
+      "existing_config": "config/rss-sources.json"
+    },
+
+    {
+      "id": "W02",
+      "name": "Tender RFQ and Project Radar",
+      "scope": ["SA", "EG"],
+      "outputs": [
+        "OPPORTUNITY",
+        "B2B_LEAD",
+        "TECHNICAL_POST"
+      ],
+      "sources": [
+        {
+          "name": "Saudi Electricity Company e-Bidding",
+          "country": "SA",
+          "type": "web",
+          "url": "https://www.se.com.sa/e-Bid/",
+          "priority": "high",
+          "enabled": true
+        },
+        {
+          "name": "NREA Egypt Tenders",
+          "country": "EG",
+          "type": "web",
+          "url": "https://nrea.gov.eg/en/Investors/Tender",
+          "priority": "high",
+          "enabled": true
+        }
+      ]
+    },
+
+    {
+      "id": "W03",
+      "name": "Vendor and Contractor Registration Radar",
+      "scope": ["SA", "EG"],
+      "outputs": [
+        "VENDOR_REGISTRATION",
+        "OPPORTUNITY",
+        "B2B_LEAD"
+      ],
+      "sources": [
+        {
+          "name": "Saudi Electricity Company Vendor Registration",
+          "country": "SA",
+          "type": "web",
+          "url": "https://www.se.com.sa/suppliers/Home.aspx",
+          "priority": "high",
+          "enabled": true
+        }
+      ]
+    },
+
+    {
+      "id": "W04",
+      "name": "Manufacturer and Product Radar",
+      "scope": "GLOBAL",
+      "outputs": [
+        "TECHNICAL_POST",
+        "PRODUCT_REFERRAL",
+        "B2B_LEAD"
+      ],
+      "manufacturers": [
+        "Siemens Energy",
+        "Hitachi Energy",
+        "GE Vernova",
+        "Schneider Electric",
+        "ABB",
+        "SEL",
+        "Mitsubishi Electric",
+        "Hyosung Heavy Industries"
+      ],
+      "topics": [
+        "transformers",
+        "GIS",
+        "switchgear",
+        "protection",
+        "IEC 61850",
+        "SCADA",
+        "digital substations",
+        "HVDC",
+        "FACTS",
+        "BESS",
+        "grid software",
+        "power quality"
+      ]
+    },
+
+    {
+      "id": "W05",
+      "name": "Startup and Emerging Technology Radar",
+      "scope": "GLOBAL",
+      "outputs": [
+        "TECHNICAL_POST",
+        "PRODUCT_REFERRAL",
+        "B2B_LEAD"
+      ],
+      "topics": [
+        "grid technology",
+        "AI for utilities",
+        "energy storage",
+        "digital substations",
+        "robotic inspection",
+        "predictive maintenance",
+        "asset management",
+        "grid forming inverters",
+        "cybersecurity",
+        "power electronics"
+      ]
+    },
+
+    {
+      "id": "W06",
+      "name": "Social Media Release Radar",
+      "scope": "GLOBAL",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "monitor": [
+        "official company accounts",
+        "utilities",
+        "OEMs",
+        "technology providers",
+        "project developers",
+        "government energy organizations"
+      ],
+      "outputs": [
+        "TECHNICAL_POST",
+        "OPPORTUNITY",
+        "PRODUCT_REFERRAL",
+        "B2B_LEAD"
+      ],
+      "rules": {
+        "official_public_accounts_only": true,
+        "social_post_is_discovery_signal": true,
+        "verify_before_publication": true,
+        "save_original_post_url": true,
+        "do_not_copy_post_text": true,
+        "do_not_copy_source_images": true
+      }
+    }
+  ],
+
+  "routing": {
+    "TECHNICAL_POST": {
+      "geography": "GLOBAL",
+      "publish_to_site": true,
+      "publish_to_rss_after_approval": true,
+      "linkedin_candidate": true
+    },
+
+    "OPPORTUNITY": {
+      "geography": ["SA", "EG"],
+      "publish_to_site": true,
+      "publish_to_rss_after_approval": true,
+      "linkedin_candidate": true
+    },
+
+    "PRODUCT_REFERRAL": {
+      "geography": "GLOBAL",
+      "publish_to_site": true,
+      "publish_to_rss_after_approval": true,
+      "linkedin_candidate": true
+    },
+
+    "B2B_LEAD": {
+      "geography": ["SA", "EG"],
+      "publish_to_site": false,
+      "publish_to_rss_after_approval": false,
+      "internal_lead": true
+    }
+  }
+}
