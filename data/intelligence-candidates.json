@@ -1,0 +1,1844 @@
+{
+  "project": "Electro Lounge",
+  "system": "Shared Intelligence Radar",
+  "watchers": [
+    "W04",
+    "W05",
+    "W06"
+  ],
+  "generated_at": "2026-10-05T07:15:30.067159+00:00",
+  "counts": {
+    "W04": 48,
+    "W05": 27,
+    "W06": 56
+  },
+  "candidate_count": 131,
+  "note": "Discovery targets only. Results require collection, verification and human approval.",
+  "candidates": [
+    {
+      "id": "607a3e931de4250d4759",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Siemens Energy",
+      "topic": "transformer",
+      "query": "\"Siemens Energy\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "a8e38c552a6a827a3089",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Siemens Energy",
+      "topic": "GIS",
+      "query": "\"Siemens Energy\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "90dbbb7cbd3f2778b862",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Siemens Energy",
+      "topic": "digital substation",
+      "query": "\"Siemens Energy\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c6bd4928a399684e2a2c",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Siemens Energy",
+      "topic": "HVDC",
+      "query": "\"Siemens Energy\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "77461845c2ef96cce3eb",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Siemens Energy",
+      "topic": "BESS",
+      "query": "\"Siemens Energy\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8ab5a0cd5325f8dbc71c",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Siemens Energy",
+      "topic": "IEC 61850",
+      "query": "\"Siemens Energy\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8560375ff7fc942e15f2",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hitachi Energy",
+      "topic": "transformer",
+      "query": "\"Hitachi Energy\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "bad8d1c763e0a026087f",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hitachi Energy",
+      "topic": "GIS",
+      "query": "\"Hitachi Energy\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "1bb56c7c39e3adf634b4",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hitachi Energy",
+      "topic": "digital substation",
+      "query": "\"Hitachi Energy\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "6e4d2187593d241afc44",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hitachi Energy",
+      "topic": "HVDC",
+      "query": "\"Hitachi Energy\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "24883b51206f10f2090d",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hitachi Energy",
+      "topic": "BESS",
+      "query": "\"Hitachi Energy\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "a7d3ab6d87010d649bea",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hitachi Energy",
+      "topic": "IEC 61850",
+      "query": "\"Hitachi Energy\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "97cca77add4c8cceac17",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "GE Vernova",
+      "topic": "transformer",
+      "query": "\"GE Vernova\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "dab430ad6656dfc9d9e4",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "GE Vernova",
+      "topic": "GIS",
+      "query": "\"GE Vernova\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "9f9d14cc2b15d0a52872",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "GE Vernova",
+      "topic": "digital substation",
+      "query": "\"GE Vernova\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "b26c95f137b640f5b22c",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "GE Vernova",
+      "topic": "HVDC",
+      "query": "\"GE Vernova\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "79311936835441517579",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "GE Vernova",
+      "topic": "BESS",
+      "query": "\"GE Vernova\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "20b40040cc1d72f8fdc9",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "GE Vernova",
+      "topic": "IEC 61850",
+      "query": "\"GE Vernova\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c560253167f968e60e1b",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Schneider Electric",
+      "topic": "transformer",
+      "query": "\"Schneider Electric\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "ca0b795e62ec6e0a196e",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Schneider Electric",
+      "topic": "GIS",
+      "query": "\"Schneider Electric\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "5a56c2930a0d877e65ab",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Schneider Electric",
+      "topic": "digital substation",
+      "query": "\"Schneider Electric\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "e43fa8a718672f293eed",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Schneider Electric",
+      "topic": "HVDC",
+      "query": "\"Schneider Electric\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c43e3730f8f296ef2d95",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Schneider Electric",
+      "topic": "BESS",
+      "query": "\"Schneider Electric\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "34ea07cd592fe6f5f563",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Schneider Electric",
+      "topic": "IEC 61850",
+      "query": "\"Schneider Electric\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8ba95dd98f9928b015ef",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "ABB",
+      "topic": "transformer",
+      "query": "\"ABB\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "121a6fd5d2b3d58abb15",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "ABB",
+      "topic": "GIS",
+      "query": "\"ABB\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "203fc1c0221e5c553348",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "ABB",
+      "topic": "digital substation",
+      "query": "\"ABB\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "d84cc14d8f6235955ca8",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "ABB",
+      "topic": "HVDC",
+      "query": "\"ABB\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "09ca8f6f38c75b2a83b1",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "ABB",
+      "topic": "BESS",
+      "query": "\"ABB\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "d1ed0afaa41c54669bc7",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "ABB",
+      "topic": "IEC 61850",
+      "query": "\"ABB\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c5e073b7260a32464222",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "SEL",
+      "topic": "transformer",
+      "query": "\"SEL\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "5f70f9a558128894caf0",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "SEL",
+      "topic": "GIS",
+      "query": "\"SEL\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "4fd48996907c881583f7",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "SEL",
+      "topic": "digital substation",
+      "query": "\"SEL\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c117a2b2567e7536e13a",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "SEL",
+      "topic": "HVDC",
+      "query": "\"SEL\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c7cbb54a9f352ad094e2",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "SEL",
+      "topic": "BESS",
+      "query": "\"SEL\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "9a2384e106094febf26b",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "SEL",
+      "topic": "IEC 61850",
+      "query": "\"SEL\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8cf7d30a409bb3388516",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Mitsubishi Electric",
+      "topic": "transformer",
+      "query": "\"Mitsubishi Electric\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "d33464e7c3a596267dc0",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Mitsubishi Electric",
+      "topic": "GIS",
+      "query": "\"Mitsubishi Electric\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "7ecb206e05378de44a9f",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Mitsubishi Electric",
+      "topic": "digital substation",
+      "query": "\"Mitsubishi Electric\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "6e7fb3919ebae213ec99",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Mitsubishi Electric",
+      "topic": "HVDC",
+      "query": "\"Mitsubishi Electric\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "79a4c2378272174744fd",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Mitsubishi Electric",
+      "topic": "BESS",
+      "query": "\"Mitsubishi Electric\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "211a2fc668458434dca5",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Mitsubishi Electric",
+      "topic": "IEC 61850",
+      "query": "\"Mitsubishi Electric\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "50cba1275b3fd5204793",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hyosung Heavy Industries",
+      "topic": "transformer",
+      "query": "\"Hyosung Heavy Industries\" \"transformer\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22transformer%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c25b30c8c569b530eb9f",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hyosung Heavy Industries",
+      "topic": "GIS",
+      "query": "\"Hyosung Heavy Industries\" \"GIS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22GIS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "e36926e095f7d2f945c6",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hyosung Heavy Industries",
+      "topic": "digital substation",
+      "query": "\"Hyosung Heavy Industries\" \"digital substation\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22digital+substation%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8f22030fc68103c3a7e5",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hyosung Heavy Industries",
+      "topic": "HVDC",
+      "query": "\"Hyosung Heavy Industries\" \"HVDC\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22HVDC%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "10e297af650113e1f8c1",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hyosung Heavy Industries",
+      "topic": "BESS",
+      "query": "\"Hyosung Heavy Industries\" \"BESS\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22BESS%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "72e15f0f8e6d0b7fbf64",
+      "watcher": "W04",
+      "category": "MANUFACTURER_PRODUCT",
+      "manufacturer": "Hyosung Heavy Industries",
+      "topic": "IEC 61850",
+      "query": "\"Hyosung Heavy Industries\" \"IEC 61850\"",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22IEC+61850%22&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "7935e90a818acb0d243e",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "grid technology",
+      "query": "\"grid technology\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22grid+technology%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "02dd909a26f039f57c25",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "power technology startup",
+      "query": "\"power technology startup\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22power+technology+startup%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "b0b4650c6a785f260557",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "energy technology startup",
+      "query": "\"energy technology startup\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22energy+technology+startup%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "3cf10b16680e44a6359a",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "AI for utilities",
+      "query": "\"AI for utilities\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22AI+for+utilities%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8f35c2f91f21e4d61a6a",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "artificial intelligence utility",
+      "query": "\"artificial intelligence utility\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22artificial+intelligence+utility%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "70d13e95feba8fcfabc2",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "AI power grid",
+      "query": "\"AI power grid\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22AI+power+grid%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "9a61fa7a995e870a8c17",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "predictive maintenance",
+      "query": "\"predictive maintenance\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22predictive+maintenance%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "98420a8ec0d87bbfb2e2",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "condition monitoring",
+      "query": "\"condition monitoring\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22condition+monitoring%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c633a909041cfa163efb",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "robotic inspection",
+      "query": "\"robotic inspection\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22robotic+inspection%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "f1cb05d2a0cf4b7add8b",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "drone inspection",
+      "query": "\"drone inspection\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22drone+inspection%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "061e9766ee5c913b08bf",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "digital substation",
+      "query": "\"digital substation\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22digital+substation%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "066caa9c27f6039f9b5f",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "digital twin",
+      "query": "\"digital twin\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22digital+twin%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "c2248c3867bcc300286c",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "smart grid",
+      "query": "\"smart grid\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22smart+grid%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "cffba90a12e8d5673afc",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "grid forming inverter",
+      "query": "\"grid forming inverter\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22grid+forming+inverter%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "b97a362b9ae99f5bd0a6",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "grid-forming inverter",
+      "query": "\"grid-forming inverter\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22grid-forming+inverter%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "cb7ca22630f2dcdc87a2",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "battery energy storage",
+      "query": "\"battery energy storage\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22battery+energy+storage%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "8990d53eafe622bb728a",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "BESS",
+      "query": "\"BESS\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22BESS%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "bf94c0a2a0d0421568f4",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "long duration energy storage",
+      "query": "\"long duration energy storage\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22long+duration+energy+storage%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "480d5b0c1c188c23021d",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "power electronics",
+      "query": "\"power electronics\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22power+electronics%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "f6580467a797d2909f5b",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "cybersecurity power grid",
+      "query": "\"cybersecurity power grid\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22cybersecurity+power+grid%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "d46227a2c3dfcf717479",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "substation cybersecurity",
+      "query": "\"substation cybersecurity\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22substation+cybersecurity%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "599ceb8b7e49d4468e1f",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "utility cybersecurity",
+      "query": "\"utility cybersecurity\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22utility+cybersecurity%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "4d8dccf8b86524c92519",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "asset performance management",
+      "query": "\"asset performance management\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22asset+performance+management%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "640f628b8803c8007c09",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "virtual power plant",
+      "query": "\"virtual power plant\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22virtual+power+plant%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "89399adda3a05fb7d129",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "microgrid",
+      "query": "\"microgrid\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22microgrid%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "823a5cd4bcc20ff6732c",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "dynamic line rating",
+      "query": "\"dynamic line rating\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22dynamic+line+rating%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "1191771979e6ac1d8544",
+      "watcher": "W05",
+      "category": "STARTUP_TECH",
+      "topic": "advanced conductors",
+      "query": "\"advanced conductors\" electricity OR utility OR grid",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22advanced+conductors%22+electricity+OR+utility+OR+grid&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "approved": false
+    },
+    {
+      "id": "d85029fb84892876d91e",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "bad87e76c46ab570d908",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "c9326d951e207ad921b5",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "e6c12a7c12e8cbce22ba",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "e9dba62452563204bea4",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "a769e09fc09c285d5c55",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "2b382bcd25e2467a754d",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Siemens Energy",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Siemens Energy\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Siemens+Energy%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "55fe4b28285cf54bc866",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "4b8eb724cba7c4b39a85",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "612a6959a04fa7753052",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "2cd2f5c9e7195c1d5729",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "ea47e0cb7881a05e9596",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "73e2bcbb368f2c0ddabd",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "a1673dd5b597870ead30",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hitachi Energy",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hitachi Energy\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hitachi+Energy%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "aba44049754bb9e32e02",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "1f62ce2c2598f1795870",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "7b83bfcded89a3269717",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "ed9c8d9caf0ebd4bae11",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "b885c8c1b7e4c270fb42",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "adbbc9ef263b77fa804a",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "1a5122bc4e2986eb655f",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "GE Vernova",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"GE Vernova\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22GE+Vernova%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "f1ed78d216346f0efaf6",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "7d911cab99cb09cd0a40",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "9b68faaf20d12724225a",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "5f5db7fa41e90deb293c",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "31152a52891a0f534d8f",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "6773a57b71b1048d46a1",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "2f04493b4dcec4b4fd56",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Schneider Electric",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Schneider Electric\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Schneider+Electric%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "1f7c94142665d9cdf6ae",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "ffb4c1e8c803f9b5d04d",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "c69fa401e9cff79d5c03",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "06764b96e3506169a664",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "2999d84dbd2e7e447a13",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "fce8c0a83e9603fe452c",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "a452e723af0182ee547a",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "ABB",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"ABB\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22ABB%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "2ae756dad97e11790fc4",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "7f9e0076b70d1c83496a",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "8abf47641fc8451011a6",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "9ff4c107ccc7adaf2610",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "028d52bd9872bd167654",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "6e18686bcbf3a9be5786",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "e6bc5b74170b777cde0e",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "SEL",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"SEL\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22SEL%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "47ea37696b23c5cf4e41",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "33de2bf0798c93aabb86",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "f782d67225f1c677b070",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "7703192d25b8f7d2d37f",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "303c10c30e9be9eee677",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "d48533c9f4be399cbe12",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "c861bd4199732f035ade",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Mitsubishi Electric",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Mitsubishi Electric\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Mitsubishi+Electric%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "aba36894404dfbb35dc0",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "new product",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"new product\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22new+product%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "899eefb32bac6d2849be",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "project award",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"project award\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22project+award%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "456b21616f7bba20cec1",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "substation",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"substation\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22substation%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "9ffbcf09e076dfb8433e",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "transformer",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"transformer\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22transformer%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "6c2003a28d6931601062",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "GIS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"GIS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22GIS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "db7f7d6260babcaae7fb",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "HVDC",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"HVDC\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22HVDC%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    },
+    {
+      "id": "1594d5fdd1e378fede13",
+      "watcher": "W06",
+      "category": "SOCIAL_RELEASE",
+      "entity": "Hyosung Heavy Industries",
+      "topic": "BESS",
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
+      "query": "\"Hyosung Heavy Industries\" \"BESS\" (site:x.com OR site:facebook.com)",
+      "discovery_feed": "https://news.google.com/rss/search?q=%22Hyosung+Heavy+Industries%22+%22BESS%22+%28site%3Ax.com+OR+site%3Afacebook.com%29&hl=en&gl=US&ceid=US:en",
+      "scope": "GLOBAL",
+      "status": "READY_FOR_DISCOVERY",
+      "verification_required": true,
+      "approved": false
+    }
+  ]
+}
