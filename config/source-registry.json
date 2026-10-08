@@ -1,6 +1,6 @@
 {
   "project": "Electro Lounge",
-  "version": "2.0",
+  "version": "3.0",
 
   "global_rules": {
     "publishing_language": "English",
@@ -9,28 +9,41 @@
     "auto_publish": false,
     "copyright_safe_original_content": true,
     "technical_market_scope": "GLOBAL",
-    "business_market_scope": ["SA", "EG"],
+    "business_market_scope": "GLOBAL",
     "preserve_source_url_internally": true,
     "use_real_electro_lounge_logo": true,
     "use_real_relevant_company_logo": true,
     "generate_original_topic_representation": true
   },
 
-  "watchers": [
+  "direct_rss_sources": [
+    {
+      "id": "RSS001",
+      "name": "Transformer Magazine",
+      "scope": "GLOBAL",
+      "type": "rss",
+      "url": "https://www.transformers-magazine.com/feed/",
+      "priority": "high",
+      "enabled": true
+    }
+  ],
 
+  "watchers": [
     {
       "id": "W01",
       "name": "Technical RSS and News Radar",
       "scope": "GLOBAL",
       "outputs": ["TECHNICAL_POST"],
+      "prefer_direct_rss": true,
       "existing_system": true,
-      "existing_config": "config/rss-sources.json"
+      "existing_config": "config/rss-sources.json",
+      "enabled": true
     },
 
     {
       "id": "W02",
       "name": "Tender RFQ and Project Radar",
-      "scope": ["SA", "EG"],
+      "scope": "GLOBAL",
       "outputs": [
         "OPPORTUNITY",
         "B2B_LEAD",
@@ -53,13 +66,14 @@
           "priority": "high",
           "enabled": true
         }
-      ]
+      ],
+      "enabled": true
     },
 
     {
       "id": "W03",
       "name": "Vendor and Contractor Registration Radar",
-      "scope": ["SA", "EG"],
+      "scope": "GLOBAL",
       "outputs": [
         "VENDOR_REGISTRATION",
         "PREQUALIFICATION",
@@ -78,43 +92,20 @@
         "PRODUCT_REFERRAL",
         "B2B_LEAD"
       ],
-
       "manufacturers": [
-        {
-          "name": "Siemens Energy",
-          "enabled": true
-        },
-        {
-          "name": "Hitachi Energy",
-          "enabled": true
-        },
-        {
-          "name": "GE Vernova",
-          "enabled": true
-        },
-        {
-          "name": "Schneider Electric",
-          "enabled": true
-        },
-        {
-          "name": "ABB",
-          "enabled": true
-        },
+        {"name": "Siemens Energy", "enabled": true},
+        {"name": "Hitachi Energy", "enabled": true},
+        {"name": "GE Vernova", "enabled": true},
+        {"name": "Schneider Electric", "enabled": true},
+        {"name": "ABB", "enabled": true},
         {
           "name": "SEL",
           "full_name": "Schweitzer Engineering Laboratories",
           "enabled": true
         },
-        {
-          "name": "Mitsubishi Electric",
-          "enabled": true
-        },
-        {
-          "name": "Hyosung Heavy Industries",
-          "enabled": true
-        }
+        {"name": "Mitsubishi Electric", "enabled": true},
+        {"name": "Hyosung Heavy Industries", "enabled": true}
       ],
-
       "topics": [
         "transformer",
         "power transformer",
@@ -140,7 +131,6 @@
         "asset management",
         "digital twin"
       ],
-
       "enabled": true
     },
 
@@ -154,7 +144,6 @@
         "PRODUCT_REFERRAL",
         "B2B_LEAD"
       ],
-
       "topics": [
         "grid technology",
         "power technology startup",
@@ -184,7 +173,6 @@
         "dynamic line rating",
         "advanced conductors"
       ],
-
       "enabled": true
     },
 
@@ -192,19 +180,13 @@
       "id": "W06",
       "name": "Social Media Release Radar",
       "scope": "GLOBAL",
-
-      "platforms": [
-        "X",
-        "Facebook"
-      ],
-
+      "platforms": ["X", "Facebook"],
       "outputs": [
         "TECHNICAL_POST",
         "OPPORTUNITY",
         "PRODUCT_REFERRAL",
         "B2B_LEAD"
       ],
-
       "monitor_entities": [
         "Siemens Energy",
         "Hitachi Energy",
@@ -220,7 +202,6 @@
         "renewable developers",
         "government energy organizations"
       ],
-
       "topics": [
         "new product",
         "product launch",
@@ -241,7 +222,6 @@
         "SCADA",
         "renewable project"
       ],
-
       "rules": {
         "official_public_accounts_only": true,
         "social_post_is_discovery_signal": true,
@@ -254,58 +234,49 @@
         "do_not_bypass_platform_restrictions": true,
         "human_approval_required": true
       },
-
       "enabled": true
     }
-
   ],
 
   "routing": {
-
     "TECHNICAL_POST": {
       "geography": "GLOBAL",
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
       "linkedin_candidate": true
     },
-
     "STARTUP_TECH": {
       "geography": "GLOBAL",
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
       "linkedin_candidate": true
     },
-
     "OPPORTUNITY": {
-      "geography": ["SA", "EG"],
+      "geography": "GLOBAL",
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
       "linkedin_candidate": true
     },
-
     "VENDOR_REGISTRATION": {
-      "geography": ["SA", "EG"],
+      "geography": "GLOBAL",
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
       "linkedin_candidate": true
     },
-
     "PREQUALIFICATION": {
-      "geography": ["SA", "EG"],
+      "geography": "GLOBAL",
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
       "linkedin_candidate": true
     },
-
     "PRODUCT_REFERRAL": {
       "geography": "GLOBAL",
       "publish_to_site": true,
       "publish_to_rss_after_approval": true,
       "linkedin_candidate": true
     },
-
     "B2B_LEAD": {
-      "geography": ["SA", "EG"],
+      "geography": "GLOBAL",
       "publish_to_site": false,
       "publish_to_rss_after_approval": false,
       "internal_lead": true
