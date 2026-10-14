@@ -37,12 +37,11 @@
         if (image) { const img = document.createElement('img'); img.className = 'post-image'; img.src = image; img.alt = title; img.loading = 'lazy'; img.addEventListener('error', () => img.remove(), { once: true }); article.append(img); }
         else { const label = document.createElement('p'); label.className = 'post-meta'; label.textContent = 'Text-only post'; article.append(label); }
         const p = document.createElement('p'); p.className = 'post-text'; p.textContent = body; article.append(p);
-        if (source) { const a = action('Source: ' + (text(item, 'source') || 'original article'), source); article.append(a); }
         const permalink = new URL(window.location.pathname, window.location.origin); permalink.searchParams.set('post', key);
         const shares = document.createElement('div'); shares.className = 'share-actions';
         shares.append(action('Share on Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(permalink.href)), action('Share on LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(permalink.href)));
         const copy = document.createElement('button'); copy.type = 'button'; copy.textContent = 'Copy post text';
-        copy.addEventListener('click', async () => { try { await navigator.clipboard.writeText(title + '\n\n' + body + '\n\nSource: ' + source + '\n' + permalink.href); copy.textContent = 'Copied'; } catch { copy.textContent = 'Select the text above to copy'; } }); shares.append(copy); article.append(shares); root.append(article);
+        copy.addEventListener('click', async () => { try { await navigator.clipboard.writeText(title + '\n\n' + body + '\n\n' + permalink.href); copy.textContent = 'Copied'; } catch { copy.textContent = 'Select the text above to copy'; } }); shares.append(copy); article.append(shares); root.append(article);
       }
       status.textContent = visible.length ? visible.length + (visible.length === 1 ? ' post' : ' posts') : selected ? 'This post is not in the current feed.' : 'No posts published yet.';
       if (selected) { const all = document.createElement('a'); all.href = window.location.pathname; all.textContent = 'View all posts'; status.append(' · ', all); }
