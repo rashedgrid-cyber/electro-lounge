@@ -64,14 +64,28 @@
       padding: 25px;
       margin-top: 40px;
     }
+  
+    .brand-logo {width:100px;height:100px;object-fit:contain;background:white;border-radius:8px;margin-bottom:16px;}
+    .post-image {width:100%;height:auto;display:block;border-radius:8px;margin:16px 0;}
+    .post-text {white-space:pre-line;overflow-wrap:anywhere;line-height:1.7;}
+    .post-meta {font-size:14px;color:#526477;}
+    .share-actions {display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;}
+    .share-actions a,.share-actions button {font:inherit;font-size:14px;border:1px solid #092c59;border-radius:6px;padding:10px 14px;background:white;color:#092c59;text-decoration:none;cursor:pointer;}
+    .share-actions a:hover,.share-actions button:hover {background:#eef6f8;}
+    a:focus-visible,button:focus-visible {outline:3px solid #ffc400;outline-offset:3px;}
+    .site-links {margin-top:20px;}.site-links a {color:inherit;}
+    @media(max-width:600px){header{padding:40px 18px;}header h1{font-size:34px;}main{padding:28px 16px;}.card{padding:22px;}}
   </style>
+<meta property="og:type" content="website"><meta property="og:site_name" content="Electro Lounge"><meta property="og:title" content="Electro Lounge — A social lounge for electrical engineers"><meta property="og:image" content="https://rashedgrid-cyber.github.io/electro-lounge/privacy-assets/logo.png">
 </head>
 
 <body>
 
 <header>
+  <img class="brand-logo" src="privacy-assets/logo.png" alt="Original Electro Lounge logo" width="100" height="100">
   <h1>⚡ Electro Lounge</h1>
   <p>Where Electrical Professionals Connect</p>
+  <p>A social lounge for electrical engineers</p>
 </header>
 
 <main>
@@ -105,11 +119,14 @@
     </p>
   </div>
 
+  <section aria-labelledby="posts-title"><h2 id="posts-title">Latest posts</h2><p id="feed-status" role="status">Loading posts…</p><div id="posts"></div><noscript><p>JavaScript is needed to display the live posts. <a href="feed.xml">Open the RSS feed</a>.</p></noscript></section>
 </main>
 
 <footer>
   Electro Lounge ⚡ Where Electrical Professionals Connect
+  <div class="site-links"><a href="privacy.html">Privacy policy</a> · <a href="feed.xml">RSS feed</a></div>
 </footer>
 
+<script src="posts.js" defer></script>
 </body>
 </html>
