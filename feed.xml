@@ -216,6 +216,25 @@ The planned line is 359 kilometers, or 223 miles, long and would provide a secon
 <category>Grid Reliability</category>
 <category>United States</category>
 </item>
+<item>
+<title>DG Matrix Launches 800 VDC Solid-State Transformer System for AI Data Centres</title>
+<link>https://transformer-magazine.com/news/dg-matrix-unveils-800-vdc-sst-system/</link>
+<guid isPermaLink="true">https://transformer-magazine.com/news/dg-matrix-unveils-800-vdc-sst-system/</guid>
+<description>🔌 The evolution of power distribution for AI data centres continues with DG Matrix&apos;s introduction of the Interport 360 Flex system. This new offering features modular solid-state transformers (SSTs) operating at 800 VDC, paired with real-time controls to manage complex data centre power demands.
+
+Solid-state transformers differ from traditional magnetic transformers by using semiconductor components, offering finer control and improved response times. For environments like AI data centres—where rapid load changes and power quality are crucial—the added control and modularity can make distribution both more efficient and adaptable.
+
+Integrating these advanced SSTs at 800 VDC may impact power conversion efficiency and system flexibility, supporting the infrastructure needed for high-performance computing. While details on deployment specifics and performance are not provided, the move signals a growing trend toward intelligent, high-voltage DC distribution in next-generation facilities.
+
+🤔 How do you see modular SSTs shaping future power architectures in data centres and beyond?</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-5136ab280c8c.png" length="733065" type="image/png" />
+<category>Electro Lounge</category>
+<category>Power Systems</category>
+<category>Solid State Transformers</category>
+<category>AIDatacentres</category>
+<pubDate>Wed, 14 Oct 2026 13:07:35 GMT</pubDate>
+<source url="https://transformer-magazine.com/news/dg-matrix-unveils-800-vdc-sst-system/">Transformer Magazine</source>
+</item>
 </channel>
 
 </rss>
