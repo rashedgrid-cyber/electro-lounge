@@ -40,23 +40,23 @@
         const h = document.createElement('h3'); h.textContent = title; article.append(h);
         const date = new Date(text(item, 'pubDate')); if (!Number.isNaN(date.getTime())) { const time = document.createElement('time'); time.className = 'post-meta'; time.dateTime = date.toISOString(); time.textContent = date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' }); article.append(time); }
         const image = safeURL(item.getElementsByTagName('enclosure')[0]?.getAttribute('url') || '');
-        if (image) { const img = document.createElement('img'); img.className = 'post-image'; img.src = image; img.alt = title; img.loading = 'lazy'; img.addEventListener('error', () => img.remove(), { once: true }); article.append(img); }
+        if (image) { const img = document.createElement('img'); img.className = 'post-image'; img.src = image; img.alt = title; img.loading = 'lazy'; img.addEventListener('error', () => img.remove(), { once: true }); const imageLink = document.createElement('a'); imageLink.href = source && source.startsWith(window.location.origin + '/electro-lounge/posts/') ? source : window.location.pathname + '?post=' + encodeURIComponent(key); imageLink.setAttribute('aria-label', 'Read ' + title); imageLink.append(img); article.append(imageLink); }
         else { const label = document.createElement('p'); label.className = 'post-meta'; label.textContent = 'Text-only post'; article.append(label); }
         const p = document.createElement('p'); p.className = 'post-text'; p.textContent = body; article.append(p);
-        const permalink = new URL(window.location.pathname, window.location.origin); permalink.searchParams.set('post', key);
+        const permalink = source && source.startsWith(window.location.origin + '/electro-lounge/posts/') ? new URL(source) : new URL(window.location.pathname, window.location.origin); if (!permalink.pathname.includes('/posts/')) permalink.searchParams.set('post', key);
         const tags = tagsFor(item); const hashtags = hashtagsFor(tags);
         const tagList = document.createElement('div'); tagList.className = 'post-tags'; tagList.setAttribute('aria-label', 'Post topics');
         for (const tag of tags) { const tagURL = new URL(window.location.pathname, window.location.origin); tagURL.searchParams.set('tag', tag); const a = document.createElement('a'); a.href = tagURL.href; a.textContent = tag; tagList.append(a); } article.append(tagList);
         const hashLine = document.createElement('p'); hashLine.className = 'post-hashtags'; hashLine.textContent = hashtags; article.append(hashLine);
-        const caption = title + '\n\n' + body + '\n\n' + hashtags + '\n\n' + permalink.href;
+        const caption = title + '\n\n' + body + '\n\n' + hashtags;
         const preview = document.createElement('details'); preview.className = 'caption-preview'; const summary = document.createElement('summary'); summary.textContent = 'Ready-to-publish caption';
-        const box = document.createElement('textarea'); box.className = 'caption-box'; box.readOnly = true; box.value = caption; box.setAttribute('aria-label', 'Full post caption with hashtags and link'); preview.append(summary, box);
-        const note = document.createElement('p'); note.className = 'share-note'; note.setAttribute('role', 'status'); note.textContent = 'Share copies the full caption and opens your chosen platform. Paste it into the post, review, then publish.';
+        const box = document.createElement('textarea'); box.className = 'caption-box'; box.readOnly = true; box.value = caption; box.setAttribute('aria-label', 'Full post caption without links'); preview.append(summary, box);
+        const note = document.createElement('p'); note.className = 'share-note'; note.setAttribute('role', 'status'); note.textContent = 'The caption contains no links. Share opens the article image preview; paste the caption, review, then publish.';
         async function copyCaption() { try { await navigator.clipboard.writeText(caption); return true; } catch { preview.open = true; box.focus(); box.select(); return false; } }
         const shares = document.createElement('div'); shares.className = 'share-actions';
         function shareButton(platform, url) { const a = action('Copy & share on ' + platform, url); a.addEventListener('click', async event => { if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return; event.preventDefault(); window.open(url, '_blank', 'noopener,noreferrer'); const copied = await copyCaption(); note.textContent = copied ? 'Caption copied, including hashtags. In ' + platform + ', paste it with Ctrl+V (or Paste on mobile), review, then publish.' : 'Select and copy the caption below, then paste it into ' + platform + '.'; }); return a; }
         shares.append(shareButton('Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(permalink.href)), shareButton('LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(permalink.href)));
-        const copy = document.createElement('button'); copy.type = 'button'; copy.textContent = 'Copy full caption'; copy.addEventListener('click', async () => { const ok = await copyCaption(); note.textContent = ok ? 'Full caption copied: post text, hashtags and link. Ready to paste and publish.' : 'Select and copy the caption below.'; }); shares.append(copy);
+        const copy = document.createElement('button'); copy.type = 'button'; copy.textContent = 'Copy full caption'; copy.addEventListener('click', async () => { const ok = await copyCaption(); note.textContent = ok ? 'Caption copied: post text, emojis and hashtags. No links included.' : 'Select and copy the caption below.'; }); shares.append(copy);
         if (image) shares.append(action('Open post image', image));
         article.append(shares, note, preview); root.append(article);
       }
