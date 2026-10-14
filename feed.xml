@@ -25,7 +25,7 @@ lessons learned and discussions for electrical and power professionals.
 
 <title>Transformer Seismic Design: What Should Substation Engineers Consider?</title>
 
-<link>https://rashedgrid-cyber.github.io/electro-lounge/#transformer-seismic-design</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/a90b414dff4f7d5f.html</link>
 
 <guid isPermaLink="false">
 electro-lounge-transformer-seismic-design-001
@@ -33,33 +33,39 @@ electro-lounge-transformer-seismic-design-001
 
 <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
 
-<description><![CDATA[⚡ When we talk about earthquake-resistant transformers, it is easy to focus on the tank. But the whole installation deserves attention.
+<description><![CDATA[⚡ General engineering principles — applicable internationally.
+
+When we talk about earthquake-resistant transformers, it is easy to focus on the tank. But the whole installation deserves attention.
 
 A transformer depends on its foundations, anchoring, bushings, supporting structures and connections. Bushings are the insulated terminals that let conductors pass through the equipment enclosure. Flexible connections and cable arrangements also matter because different parts of the installation can move during a seismic event.
 
 For a design review, look at the transformer and its surroundings together: the conservator supports, auxiliary equipment and control cabinets, as well as the main unit. Seismic qualification is about checking whether equipment can withstand the specified earthquake conditions; it is a useful topic to discuss early in the project.
 
-💬 What approach do you use in regions usually considered to have relatively low seismic risk? Share the checks or lessons that have helped your team.]]></description>
+🔎 The engineering answer: assess the complete load path—the route through which earthquake forces travel from the equipment into the foundations. Anchors restrain the tank, while bushings and supports must tolerate the specified movement. Connections need an arrangement that accommodates movement without transferring excessive force to terminals. Seismic qualification provides evidence against defined seismic conditions; the required conditions depend on the site and applicable project criteria, rather than assuming that a low-risk region needs no assessment.]]></description>
 
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-278e9af4c7ec.png" length="731942" type="image/png" />
+<source url="https://rashedgrid-cyber.github.io/electro-lounge/#transformer-seismic-design">Original reference</source>
 <category>Electrical Engineering</category>
 <category>Transformers</category>
 <category>Seismic Design</category>
+<category>Global</category>
 </item>
 
 
 <item>
 <title>Industry Navigator 2026 Kicks Off in Vienna, Spotlighting Key T&amp;D Sector Trends</title>
-<link>https://transformer-magazine.com/news/industry-navigator-2026-opens-in-vienna/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/6328380e4b2a4546.html</link>
 <guid isPermaLink="false">https://transformer-magazine.com/news/industry-navigator-2026-opens-in-vienna/</guid>
 <pubDate>Sun, 11 Oct 2026 09:32:24 GMT</pubDate>
-<description><![CDATA[🤝 What is on the minds of transmission and distribution teams right now? Industry Navigator 2026 in Vienna is bringing professionals together for three days of discussion about supply chains, sector growth and the challenges facing power delivery.
+<description><![CDATA[🤝 Vienna, Austria.
+
+Industry Navigator 2026 in Vienna is bringing professionals together for three days of discussion about supply chains, sector growth and the challenges facing power delivery.
 
 Transmission moves electricity across the wider network, while distribution brings it closer to the people and businesses that use it. Both depend on equipment, materials and well-coordinated projects, so supply-chain discussions are relevant to the engineers planning and delivering the work.
 
 The event combines business and technical topics. For our community, it is an opportunity to think about how industry changes connect with everyday decisions: equipment selection, project planning and the technology used to deliver power.
 
-💬 Which topic would you most like to hear discussed—equipment availability, grid investment or new technology?]]></description>
+🔎 In practical terms, supply-chain planning means matching equipment lead times to the construction schedule. Transformers, switchgear and protection equipment can have different delivery and testing requirements. A useful technical programme explains those requirements, examines new technology and distinguishes measured performance from marketing claims. For beginners, the key lesson is that a workable power project needs both a sound electrical design and equipment that arrives, is tested and is integrated at the right time.]]></description>
 <source>Transformer Magazine</source>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-d7843d5db04e.png" length="839449" type="image/png" />
 <category>Electrical Engineering</category>
@@ -69,16 +75,16 @@ The event combines business and technical topics. For our community, it is an op
 
 <item>
 <title>Netel Secures $3.2M Contract for E.ON Substation Project in Sweden</title>
-<link>https://transformer-magazine.com/news/netel-wins-3-2-m-e-on-substation-deal/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/1ecb4e308d925b4e.html</link>
 <guid isPermaLink="false">https://transformer-magazine.com/news/netel-wins-3-2-m-e-on-substation-deal/</guid>
 <pubDate>Sun, 11 Oct 2026 09:32:24 GMT</pubDate>
-<description><![CDATA[🏗️ A new substation project is taking shape in Bollstabruk, Sweden. Netel has secured a $3.2 million contract with E.ON, with completion scheduled for 2029.
+<description><![CDATA[🏗️ Bollstabruk, Sweden.
 
-Why does a substation matter? It is a key point in the network where electricity can be switched, controlled and, depending on the installation, transformed to a different voltage. The equipment and its protection systems help the network deliver power reliably.
+A new substation project is taking shape in Bollstabruk, Sweden. Netel has secured a $3.2 million contract with E.ON, with completion scheduled for 2029.
 
 For the people working on projects like this, the interest goes beyond the contract value. Design, construction and operation all need to fit together, and decisions made early can affect how the installation is maintained later.
 
-💬 This project offers a useful starting point for a discussion about substation delivery. In your experience, which stage benefits most from closer cooperation between the engineering, construction and operations teams?]]></description>
+🔎 How the pieces fit: the electrical design defines the required ratings and equipment arrangement; construction turns that design into the physical installation; commissioning checks that the equipment and protection work together before service. Protection detects electrical faults and initiates isolation of the affected part. Coordination between these stages helps avoid installing equipment that is difficult to test, operate or maintain. These are general substation principles, not a description of this project's final design.]]></description>
 <source>Transformer Magazine</source>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-257f0e64576f.png" length="795952" type="image/png" />
 <category>Electrical Engineering</category>
@@ -88,16 +94,18 @@ For the people working on projects like this, the interest goes beyond the contr
 
 <item>
 <title>National Grid Initiative Aims to Accelerate Industrial Grid Connections in New South Wales</title>
-<link>https://transformer-magazine.com/news/national-grid-tests-faster-industrial-connections/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/41402b487e5a7b12.html</link>
 <guid isPermaLink="false">https://transformer-magazine.com/news/national-grid-tests-faster-industrial-connections/</guid>
 <pubDate>Sun, 11 Oct 2026 09:32:24 GMT</pubDate>
-<description><![CDATA[🔋 Getting an industrial site connected to the grid can be a major part of an electrification project. A programme in New South Wales is exploring whether battery storage and flexible connection approaches can help industrial customers connect sooner.
+<description><![CDATA[🔋 New South Wales, Australia.
+
+Getting an industrial site connected to the grid can be a major part of an electrification project. A programme in New South Wales is exploring whether battery storage and flexible connection approaches can help industrial customers connect sooner.
 
 The idea is to make better use of the capacity already available. Batteries can store energy and release it at another time, while a flexible connection can allow the way a site uses the network to adapt to agreed conditions. The programme is testing these approaches; it is not a promise that every site can avoid a network upgrade.
 
 For engineers, the interesting question is how the site's demand, its operating needs and the grid's limits fit together. Faster access is useful only when the connection arrangement also suits the business.
 
-💬 Would a flexible connection work for the industrial loads you deal with? What would you want to clarify first?]]></description>
+🔎 A simple example: an industrial site's maximum demand may occur for only a few hours. A battery can charge when spare capacity is available and discharge during the peak, reducing the site's demand on the connection. Power in MW describes the rate of delivery; energy in MWh describes how much can be delivered over time. A flexible connection may also require demand to be reduced under agreed conditions. Whether either approach works depends on the process, the duration of peaks and the network agreement.]]></description>
 <source>Transformer Magazine</source>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-353dd3a233f8.png" length="725976" type="image/png" />
 <category>Electrical Engineering</category>
@@ -107,15 +115,17 @@ For engineers, the interesting question is how the site's demand, its operating 
 </item>
 <item>
 <title>Offshore Substations Set Sail for Major Baltic Sea Wind Project</title>
-<link>https://transformer-magazine.com/news/gennaker-substations-sail-for-baltic-sea/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/0dc27f79cac70c80.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/gennaker-substations-sail-for-baltic-sea/</guid>
-<description><![CDATA[🌊 Two offshore substations are on their way to the German sector of the Baltic Sea for the 927 MW Gennaker wind farm. Each has a capacity of approximately 450 MW.
+<description><![CDATA[🌊 German sector of the Baltic Sea, Germany.
+
+Two offshore substations are on their way to the German sector of the Baltic Sea for the 927 MW Gennaker wind farm. Each has a capacity of approximately 450 MW.
 
 Think of an offshore substation as a collection point between the wind turbines and the route back to shore. It brings the electrical output together and helps prepare it for transmission to the mainland network. Without that connection infrastructure, generating power offshore is only part of the job.
 
 For electrical engineers, the numbers give a sense of the scale involved. They also lead to practical questions about how equipment, protection, cables and maintenance access fit into an offshore installation. These are discussion points, rather than details confirmed for this particular project.
 
-💬 Which part of offshore grid connection interests you most: electrical design, installation or long-term maintenance?]]></description>
+🔎 The power route is turbines → offshore collection network → offshore substation → export connection → mainland grid. Transformers change the voltage to suit transmission, and protection isolates faults. For the same transmitted power, a higher voltage generally means lower current, which reduces resistive cable losses. The substation and export system must still be designed as one system: headline MW ratings alone do not establish how much power can be transferred under every operating condition. This explains the engineering role without assuming unreported project specifications.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-7acf8e886926.png" length="792107" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 10:17:32 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/gennaker-substations-sail-for-baltic-sea/">Transformer Magazine</source>
@@ -126,51 +136,59 @@ For electrical engineers, the numbers give a sense of the scale involved. They a
 </item>
 <item>
 <title>National Grid Invests $6.5 Million in Live-Line Maintenance Innovation</title>
-<link>https://transformer-magazine.com/news/national-grid-secures-6-5-m-live-line-funding/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/f3a2157a3844bde2.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/national-grid-secures-6-5-m-live-line-funding/</guid>
-<description><![CDATA[⚡ How do you maintain a high-voltage network while keeping the power flowing? National Grid has secured $6.5 million for a three-year initiative to develop live-line maintenance equipment and improve working procedures.
+<description><![CDATA[⚡ United Kingdom.
 
-Live-line maintenance means carrying out specialist work on equipment that remains energized. The initiative focuses on challenges involving insulators, conductors and other high-voltage components. It aims to improve the tools and methods used for this demanding work.
+National Grid Electricity Transmission in the United Kingdom has secured approximately $6.5 million (£4.95 million) for DELLTA, a three-year project developing methods, equipment, procedures and training for live-line transmission maintenance.
 
-The potential benefit is clear: some maintenance may be possible without taking an asset out of service. But this is specialist work that depends on trained teams, approved procedures and suitable equipment. This post is a discussion of the initiative, not guidance for performing live work.
+The main focus is replacing overhead-line insulators while the circuit remains energized. An insulator supports a conductor and separates it electrically from the grounded tower. Conventional transmission maintenance is typically carried out during planned outages, with the circuit taken out of service. Reducing those outages could help retain network capacity during maintenance.
 
-💬 For teams planning maintenance, what makes the biggest difference to a successful job: better tools, better planning or closer coordination with operations?]]></description>
+Behind the scenes, the earlier Alpha phase demonstrated a proposed insulator-replacement method on a de-energized network. The Beta phase includes specialist training and is expected to conclude with a demonstration on National Grid's transmission network. That distinction matters: an earlier trial is not evidence that live replacement is already routine.
+
+The project team includes Frazer-Nash Consultancy, the University of Manchester, Allied Insulators, the University of Liverpool, SSEN Transmission and Budapest University of Technology and Economics.
+
+🔎 The engineering answer: planning, tools and operating coordination form one safety system. Insulators support conductors while separating them electrically from grounded structures. Replacing or servicing them changes a critical part of that system. Live-line work therefore requires a validated method, specially trained personnel and suitable equipment, with operations teams managing the network conditions. Keeping a circuit energized can retain its transfer capacity during maintenance, but suitability must be assessed for the particular task; it is not an instruction to work on live equipment.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-612d500db07a.png" length="831562" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/national-grid-secures-6-5-m-live-line-funding/">Transformer Magazine</source>
 <category>Electrical Engineering</category>
 <category>Live Line Maintenance</category>
 <category>Grid Reliability</category>
+<category>United Kingdom</category>
 </item>
 <item>
 <title>Upcoming Webinar to Examine Variable Shunt Reactors and Their Impact on Grid Voltage Stability</title>
-<link>https://transformer-magazine.com/news/reinhausen-webinar-variable-shunt-reactors-a-key-to-grid-voltage-stability/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/6301caaae3636632.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/reinhausen-webinar-variable-shunt-reactors-a-key-to-grid-voltage-stability/</guid>
-<description><![CDATA[📅 Want a clearer picture of how variable shunt reactors help with voltage control? Reinhausen is hosting a webinar on Tuesday, October 27, at 2 pm CET, covering the basics of Variable Shunt Reactors, or VSRs.
+<description><![CDATA[📅 Online learning; the supplied announcement does not identify a host country.
+
+Reinhausen is hosting a webinar on Tuesday, October 27, at 2 pm CET, covering the basics of Variable Shunt Reactors, or VSRs.
 
 A shunt reactor absorbs reactive power. Reactive power supports electric and magnetic fields in the network, and its balance affects voltage. A variable shunt reactor allows the amount absorbed to be adjusted, giving operators another way to respond as network conditions change.
 
 The session will explore reactive power compensation and voltage control—useful subjects for anyone trying to connect equipment behaviour with day-to-day grid operation.
 
-💬 If you are joining, bring a practical question from your own work. Which part would you like explained more clearly: reactive power, reactor control or the effect on network voltage?]]></description>
+🔎 MW and MVAr describe different things. MW measures real power that does useful work; MVAr measures reactive power exchanged with electric and magnetic fields. Long high-voltage cables and lightly loaded lines can supply reactive power and raise voltage. A shunt reactor is connected in parallel with the network and absorbs reactive power to help control that rise. A variable reactor adjusts the amount absorbed as conditions change. It helps balance reactive power; it does not generate electricity or replace all other voltage-control equipment.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-9b932e029385.png" length="837366" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/reinhausen-webinar-variable-shunt-reactors-a-key-to-grid-voltage-stability/">Transformer Magazine</source>
 <category>Electrical Engineering</category>
 <category>Reactive Power</category>
 <category>Voltage Control</category>
+<category>Global</category>
 </item>
 <item>
 <title>Texas Unveils $22 Billion Power Campus Integrating Generation and Data Center Demand</title>
-<link>https://transformer-magazine.com/news/texas-plans-22-b-power-campus/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/afbe9b3f391f09cd.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/texas-plans-22-b-power-campus/</guid>
-<description><![CDATA[🏭 A planned $22 billion power campus in Encinal, Texas, puts a big question in the spotlight: how do we supply electricity to very large data centers?
+<description><![CDATA[🏭 Encinal, Texas, United States.
 
 The plans include a 6.47 GW gas-fired power plant alongside a 5 GW data center, with surplus generation intended for the wider Texas grid. These are planned capacities, rather than a statement that the facilities are already operating.
 
 Placing generation near a major load changes the planning conversation. Engineers still need to consider how the facilities connect, how supply and demand vary, and what happens when equipment is unavailable. The difference between the two headline capacities alone does not tell us how much power will be exported at any particular time.
 
-💬 For those working in power generation or grid planning, what would you want to understand first about an arrangement at this scale?]]></description>
+🔎 Start with the power balance: 6.47 GW of planned generation minus 5 GW of stated data-center demand gives a nominal difference of 1.47 GW. That subtraction is not a guaranteed export figure. Actual output, plant auxiliary consumption, maintenance, demand variation and the connection's limits all affect the result. Reliability means checking what happens if a generating unit or connection is unavailable. Grid studies also examine voltage, fault levels and protection. The practical aim is dependable supply to the load and controlled exchange with the grid—not simply installing a larger power plant next door.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-bcff13280401.png" length="836788" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/texas-plans-22-b-power-campus/">Transformer Magazine</source>
@@ -181,15 +199,15 @@ Placing generation near a major load changes the planning conversation. Engineer
 </item>
 <item>
 <title>Major Federal Backing Advances Alaska Transmission Expansion</title>
-<link>https://transformer-magazine.com/news/doe-backs-418-m-alaska-transmission-project/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/0b75c426eafd03c9.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/doe-backs-418-m-alaska-transmission-project/</guid>
-<description><![CDATA[🔌 Alaska is planning another high-voltage connection between Southcentral and Interior Alaska. The U.S. Department of Energy has committed support for the $418 million Beluga–Healy transmission project.
+<description><![CDATA[🔌 Southcentral and Interior Alaska, United States.
+
+Alaska is planning another high-voltage connection between Southcentral and Interior Alaska. The U.S. Department of Energy has committed support for the $418 million Beluga–Healy transmission project.
 
 The planned line is 359 kilometers, or 223 miles, long and would provide a second high-voltage link between the two regions. It is intended to strengthen reliability and resilience and support substations managed by the Alaska Energy Authority.
 
-Why is a second connection useful? In general, another transmission route can give a network more options when equipment is unavailable or operating conditions change. The benefit depends on the final design and operation of the wider system; a second line does not remove every constraint.
-
-💬 This is a useful example for discussing how transmission investments support a region over time. When assessing a new link, which matters most in your work: reliability, transfer capability or operational flexibility?]]></description>
+🔎 A second transmission route can provide another path for power when one route is unavailable. Transfer capability means how much power the network can carry while remaining within its operating limits. Reliability concerns continuity of supply; resilience concerns withstanding and recovering from disturbances. Another line can help, but the amount of benefit depends on circuit ratings, substations, protection, network conditions and shared failure risks. Two routes affected by the same event are not equivalent to fully independent supplies.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-4958d6125880.png" length="725876" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/doe-backs-418-m-alaska-transmission-project/">Transformer Magazine</source>
