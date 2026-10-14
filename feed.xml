@@ -42,6 +42,9 @@ For a design review, look at the transformer and its surroundings together: the 
 What approach do you use in regions usually considered to have relatively low seismic risk? Share the checks or lessons that have helped your team.]]></description>
 
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-278e9af4c7ec.png" length="731942" type="image/png" />
+<category>Electrical Engineering</category>
+<category>Transformers</category>
+<category>Seismic Design</category>
 </item>
 
 
@@ -59,6 +62,9 @@ The event combines business and technical topics. For our community, it is an op
 Which topic would you most like to hear discussed—equipment availability, grid investment or new technology?]]></description>
 <source>Transformer Magazine</source>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-d7843d5db04e.png" length="839449" type="image/png" />
+<category>Electrical Engineering</category>
+<category>Transmission and Distribution</category>
+<category>Austria</category>
 </item>
 
 <item>
@@ -75,6 +81,9 @@ For the people working on projects like this, the interest goes beyond the contr
 This project offers a useful starting point for a discussion about substation delivery. In your experience, which stage benefits most from closer cooperation between the engineering, construction and operations teams?]]></description>
 <source>Transformer Magazine</source>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-257f0e64576f.png" length="795952" type="image/png" />
+<category>Electrical Engineering</category>
+<category>Substations</category>
+<category>Sweden</category>
 </item>
 
 <item>
@@ -91,6 +100,10 @@ For engineers, the interesting question is how the site's demand, its operating 
 Would a flexible connection work for the industrial loads you deal with? What would you want to clarify first?]]></description>
 <source>Transformer Magazine</source>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-353dd3a233f8.png" length="725976" type="image/png" />
+<category>Electrical Engineering</category>
+<category>Grid Connections</category>
+<category>Battery Storage</category>
+<category>Australia</category>
 </item>
 <item>
 <title>Offshore Substations Set Sail for Major Baltic Sea Wind Project</title>
@@ -106,6 +119,10 @@ Which part of offshore grid connection interests you most: electrical design, in
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-7acf8e886926.png" length="792107" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 10:17:32 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/gennaker-substations-sail-for-baltic-sea/">Transformer Magazine</source>
+<category>Electrical Engineering</category>
+<category>Offshore Wind</category>
+<category>Substations</category>
+<category>Germany</category>
 </item>
 <item>
 <title>National Grid Invests $6.5 Million in Live-Line Maintenance Innovation</title>
@@ -121,6 +138,9 @@ For teams planning maintenance, what makes the biggest difference to a successfu
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-612d500db07a.png" length="831562" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/national-grid-secures-6-5-m-live-line-funding/">Transformer Magazine</source>
+<category>Electrical Engineering</category>
+<category>Live Line Maintenance</category>
+<category>Grid Reliability</category>
 </item>
 <item>
 <title>Upcoming Webinar to Examine Variable Shunt Reactors and Their Impact on Grid Voltage Stability</title>
@@ -136,6 +156,9 @@ If you are joining, bring a practical question from your own work. Which part wo
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-9b932e029385.png" length="837366" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/reinhausen-webinar-variable-shunt-reactors-a-key-to-grid-voltage-stability/">Transformer Magazine</source>
+<category>Electrical Engineering</category>
+<category>Reactive Power</category>
+<category>Voltage Control</category>
 </item>
 <item>
 <title>Texas Unveils $22 Billion Power Campus Integrating Generation and Data Center Demand</title>
@@ -151,6 +174,10 @@ For those working in power generation or grid planning, what would you want to u
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-bcff13280401.png" length="836788" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/texas-plans-22-b-power-campus/">Transformer Magazine</source>
+<category>Electrical Engineering</category>
+<category>Power Generation</category>
+<category>Data Centers</category>
+<category>United States</category>
 </item>
 <item>
 <title>Major Federal Backing Advances Alaska Transmission Expansion</title>
@@ -166,6 +193,10 @@ This is a useful example for discussing how transmission investments support a r
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-4958d6125880.png" length="725876" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/doe-backs-418-m-alaska-transmission-project/">Transformer Magazine</source>
+<category>Electrical Engineering</category>
+<category>Power Transmission</category>
+<category>Grid Reliability</category>
+<category>United States</category>
 </item>
 </channel>
 
