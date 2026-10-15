@@ -1,7 +1,6 @@
 {
   "project": "Electro Lounge",
   "version": "3.0",
-
   "global_rules": {
     "publishing_language": "English",
     "translate_arabic_to_english": true,
@@ -13,9 +12,12 @@
     "preserve_source_url_internally": true,
     "use_real_electro_lounge_logo": true,
     "use_real_relevant_company_logo": true,
-    "generate_original_topic_representation": true
+    "generate_original_topic_representation": true,
+    "country_specific_content": true,
+    "no_discussion_questions": true,
+    "copied_captions_include_links": false,
+    "training_provider_restriction": null
   },
-
   "direct_rss_sources": [
     {
       "id": "RSS001",
@@ -27,19 +29,19 @@
       "enabled": true
     }
   ],
-
   "watchers": [
     {
       "id": "W01",
       "name": "Technical RSS and News Radar",
       "scope": "GLOBAL",
-      "outputs": ["TECHNICAL_POST"],
+      "outputs": [
+        "TECHNICAL_POST"
+      ],
       "prefer_direct_rss": true,
       "existing_system": true,
       "existing_config": "config/rss-sources.json",
       "enabled": true
     },
-
     {
       "id": "W02",
       "name": "Tender RFQ and Project Radar",
@@ -69,7 +71,6 @@
       ],
       "enabled": true
     },
-
     {
       "id": "W03",
       "name": "Vendor and Contractor Registration Radar",
@@ -82,7 +83,6 @@
       "shared_with": "W02",
       "enabled": true
     },
-
     {
       "id": "W04",
       "name": "Manufacturer and Product Radar",
@@ -93,18 +93,39 @@
         "B2B_LEAD"
       ],
       "manufacturers": [
-        {"name": "Siemens Energy", "enabled": true},
-        {"name": "Hitachi Energy", "enabled": true},
-        {"name": "GE Vernova", "enabled": true},
-        {"name": "Schneider Electric", "enabled": true},
-        {"name": "ABB", "enabled": true},
+        {
+          "name": "Siemens Energy",
+          "enabled": true
+        },
+        {
+          "name": "Hitachi Energy",
+          "enabled": true
+        },
+        {
+          "name": "GE Vernova",
+          "enabled": true
+        },
+        {
+          "name": "Schneider Electric",
+          "enabled": true
+        },
+        {
+          "name": "ABB",
+          "enabled": true
+        },
         {
           "name": "SEL",
           "full_name": "Schweitzer Engineering Laboratories",
           "enabled": true
         },
-        {"name": "Mitsubishi Electric", "enabled": true},
-        {"name": "Hyosung Heavy Industries", "enabled": true}
+        {
+          "name": "Mitsubishi Electric",
+          "enabled": true
+        },
+        {
+          "name": "Hyosung Heavy Industries",
+          "enabled": true
+        }
       ],
       "topics": [
         "transformer",
@@ -133,7 +154,6 @@
       ],
       "enabled": true
     },
-
     {
       "id": "W05",
       "name": "Startup and Emerging Technology Radar",
@@ -175,12 +195,14 @@
       ],
       "enabled": true
     },
-
     {
       "id": "W06",
       "name": "Social Media Release Radar",
       "scope": "GLOBAL",
-      "platforms": ["X", "Facebook"],
+      "platforms": [
+        "X",
+        "Facebook"
+      ],
       "outputs": [
         "TECHNICAL_POST",
         "OPPORTUNITY",
@@ -235,9 +257,81 @@
         "human_approval_required": true
       },
       "enabled": true
+    },
+    {
+      "id": "W07",
+      "name": "Electrical Training and Webinar Opportunities",
+      "enabled": true,
+      "run_mode": "manual_workflow_only",
+      "implemented_nodes": [
+        "Manual Opportunity Sources",
+        "Read Opportunity Listings",
+        "Discover Opportunity Details",
+        "Read Opportunity Details",
+        "Normalize Opportunity"
+      ],
+      "sources": [
+        {
+          "id": "TRAIN-IET",
+          "name": "IET Electrical Training",
+          "url": "https://www.theiet.org/career/training-courses/electrical-and-electrical-safety-training-courses",
+          "host": "www.theiet.org",
+          "path_pattern": "/career/training-courses/all-training-courses-and-webinars/",
+          "country": "Global",
+          "kind": "Training",
+          "enabled": false,
+          "status": "MANUAL_REVIEW_ONLY: automated access returns a bot challenge; do not bypass"
+        },
+        {
+          "id": "TRAIN-IEEE",
+          "name": "IEEE Worldwide Technical Events and Training",
+          "url": "https://events.vtools.ieee.org/events/search",
+          "host": "events.vtools.ieee.org",
+          "path_pattern": "/m/",
+          "country": "Global",
+          "kind": "Training",
+          "enabled": true
+        }
+      ],
+      "outputs": [
+        "TRAINING",
+        "WEBINAR",
+        "TECHNICAL_EXPLAINER"
+      ],
+      "provider_policy": "ANY_COMPANY_OR_PROFESSIONAL_ORGANIZATION"
+    },
+    {
+      "id": "W08",
+      "name": "Electrical Apprenticeship and Early Career Opportunities",
+      "enabled": true,
+      "run_mode": "manual_workflow_only",
+      "sources": [
+        {
+          "id": "APP-UK",
+          "name": "GOV.UK Find an apprenticeship",
+          "url": "https://www.findapprenticeship.service.gov.uk/apprenticeships?searchTerm=electrical",
+          "host": "www.findapprenticeship.service.gov.uk",
+          "path_pattern": "/apprenticeship/VAC",
+          "country": "United Kingdom",
+          "kind": "Apprenticeships"
+        },
+        {
+          "id": "CAREER-US",
+          "name": "U.S. Department of Energy - Students and Recent Graduates",
+          "url": "https://www.energy.gov/careers/students-recent-graduates",
+          "host": "www.energy.gov",
+          "path_pattern": "/",
+          "country": "United States",
+          "kind": "Internships and Graduate Opportunities",
+          "enabled": true
+        }
+      ],
+      "outputs": [
+        "APPRENTICESHIP",
+        "EARLY_CAREER"
+      ]
     }
   ],
-
   "routing": {
     "TECHNICAL_POST": {
       "geography": "GLOBAL",
