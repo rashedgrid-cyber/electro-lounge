@@ -41,7 +41,7 @@ A transformer depends on its foundations, anchoring, bushings, supporting struct
 
 For a design review, look at the transformer and its surroundings together: the conservator supports, auxiliary equipment and control cabinets, as well as the main unit. Seismic qualification is about checking whether equipment can withstand the specified earthquake conditions; it is a useful topic to discuss early in the project.
 
-🔎 The engineering answer: assess the complete load path—the route through which earthquake forces travel from the equipment into the foundations. Anchors restrain the tank, while bushings and supports must tolerate the specified movement. Connections need an arrangement that accommodates movement without transferring excessive force to terminals. Seismic qualification provides evidence against defined seismic conditions; the required conditions depend on the site and applicable project criteria, rather than assuming that a low-risk region needs no assessment.]]></description>
+🔎 assess the complete load path—the route through which earthquake forces travel from the equipment into the foundations. Anchors restrain the tank, while bushings and supports must tolerate the specified movement. Connections need an arrangement that accommodates movement without transferring excessive force to terminals. Seismic qualification provides evidence against defined seismic conditions; the required conditions depend on the site and applicable project criteria, rather than assuming that a low-risk region needs no assessment.]]></description>
 
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-278e9af4c7ec.png" length="731942" type="image/png" />
 <source url="https://rashedgrid-cyber.github.io/electro-lounge/#transformer-seismic-design">Original reference</source>
@@ -148,7 +148,7 @@ Behind the scenes, the earlier Alpha phase demonstrated a proposed insulator-rep
 
 The project team includes Frazer-Nash Consultancy, the University of Manchester, Allied Insulators, the University of Liverpool, SSEN Transmission and Budapest University of Technology and Economics.
 
-🔎 The engineering answer: planning, tools and operating coordination form one safety system. Insulators support conductors while separating them electrically from grounded structures. Replacing or servicing them changes a critical part of that system. Live-line work therefore requires a validated method, specially trained personnel and suitable equipment, with operations teams managing the network conditions. Keeping a circuit energized can retain its transfer capacity during maintenance, but suitability must be assessed for the particular task; it is not an instruction to work on live equipment.]]></description>
+🔎 planning, tools and operating coordination form one safety system. Insulators support conductors while separating them electrically from grounded structures. Replacing or servicing them changes a critical part of that system. Live-line work therefore requires a validated method, specially trained personnel and suitable equipment, with operations teams managing the network conditions. Keeping a circuit energized can retain its transfer capacity during maintenance, but suitability must be assessed for the particular task; it is not an instruction to work on live equipment.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-612d500db07a.png" length="831562" type="image/png" />
 <pubDate>Wed, 14 Oct 2026 11:36:53 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/national-grid-secures-6-5-m-live-line-funding/">Transformer Magazine</source>
@@ -218,22 +218,22 @@ The planned line is 359 kilometers, or 223 miles, long and would provide a secon
 </item>
 <item>
 <title>DG Matrix Launches 800 VDC Solid-State Transformer System for AI Data Centres</title>
-<link>https://transformer-magazine.com/news/dg-matrix-unveils-800-vdc-sst-system/</link>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/e629b0d286498ad1.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/dg-matrix-unveils-800-vdc-sst-system/</guid>
-<description>🔌 The evolution of power distribution for AI data centres continues with DG Matrix&apos;s introduction of the Interport 360 Flex system. This new offering features modular solid-state transformers (SSTs) operating at 800 VDC, paired with real-time controls to manage complex data centre power demands.
+<description><![CDATA[🔌 San Jose, California, United States — DG Matrix introduced Interport 360 Flex at the OCP Global Summit held on October 12–15, 2026. The system is designed to convert medium- or low-voltage AC supplies into 800 VDC for AI data centres. The company states that AC inputs up to 34.5 kV are supported.
 
-Solid-state transformers differ from traditional magnetic transformers by using semiconductor components, offering finer control and improved response times. For environments like AI data centres—where rapid load changes and power quality are crucial—the added control and modularity can make distribution both more efficient and adaptable.
+For beginners, AC changes direction periodically; DC flows in one direction. “800 VDC” describes the DC voltage, not the system's power capacity. A solid-state transformer uses controlled power-electronic conversion and electrical isolation to manage energy transfer. It should not be confused with a conventional transformer simply connected to a DC supply.
 
-Integrating these advanced SSTs at 800 VDC may impact power conversion efficiency and system flexibility, supporting the infrastructure needed for high-performance computing. While details on deployment specifics and performance are not provided, the move signals a growing trend toward intelligent, high-voltage DC distribution in next-generation facilities.
+Inside the announced design, silicon-carbide semiconductor modules use liquid cooling. Modules are assembled into outdoor skids that can be connected in parallel as capacity grows. DG Matrix says its controls coordinate the conversion modules, storage and power sources. Storage is intended to help smooth rapid changes in AI workload demand.
 
-🤔 How do you see modular SSTs shaping future power architectures in data centres and beyond?</description>
+The practical engineering issue is matching the supply system to a fast-changing load while controlling voltage and protecting equipment. The announcement describes an architecture and its stated functions; it does not establish independently measured efficiency, savings or performance at every installation.]]></description>
 <enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-5136ab280c8c.png" length="733065" type="image/png" />
-<category>Electro Lounge</category>
-<category>Power Systems</category>
-<category>Solid State Transformers</category>
-<category>AIDatacentres</category>
 <pubDate>Wed, 14 Oct 2026 13:07:35 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/dg-matrix-unveils-800-vdc-sst-system/">Transformer Magazine</source>
+<category>Electrical Engineering</category>
+<category>Solid State Transformers</category>
+<category>Data Centers</category>
+<category>United States</category>
 </item>
 </channel>
 
