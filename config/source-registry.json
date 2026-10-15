@@ -375,5 +375,12 @@
       "publish_to_rss_after_approval": false,
       "internal_lead": true
     }
+  },
+  "editorial_policy": {
+    "maximum_source_age_hours": 48,
+    "undated_sources": "skip",
+    "future_dated_sources": "skip",
+    "use_source_publication_date": true,
+    "preserve_archive_dates": true
   }
 }
