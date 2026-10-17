@@ -15,6 +15,8 @@
         href="feed.xml">
 
   <style>
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -26,28 +28,28 @@
       background: linear-gradient(135deg, #062d63, #087c83);
       color: white;
       text-align: center;
-      padding: 70px 20px;
+      padding: clamp(42px, 8vw, 70px) 20px;
     }
 
     header h1 {
-      font-size: 48px;
+      font-size: clamp(32px, 6vw, 48px);
       margin: 0;
     }
 
     header p {
-      font-size: 20px;
+      font-size: clamp(16px, 3vw, 20px);
       margin-top: 12px;
     }
 
     main {
       max-width: 900px;
       margin: auto;
-      padding: 45px 25px;
+      padding: clamp(28px, 5vw, 45px) clamp(16px, 4vw, 25px);
     }
 
     .card {
       background: white;
-      padding: 30px;
+      padding: clamp(20px, 4vw, 30px);
       margin-bottom: 25px;
       border-radius: 12px;
       box-shadow: 0 3px 12px rgba(0,0,0,0.08);
@@ -74,7 +76,8 @@
     .share-actions a:hover,.share-actions button:hover {background:#eef6f8;}
     a:focus-visible,button:focus-visible {outline:3px solid #ffc400;outline-offset:3px;}
     .site-links {margin-top:20px;}.site-links a {color:inherit;}
-    @media(max-width:600px){header{padding:40px 18px;}header h1{font-size:34px;}main{padding:28px 16px;}.card{padding:22px;}}
+    @media(max-width:600px){header{padding:42px 18px;}header p{line-height:1.5;margin-bottom:0;}main{padding:28px 16px;}.card{padding:20px;margin-bottom:18px;border-radius:10px;}.post-tags{gap:6px;}.post-tags a{font-size:12px;padding:5px 8px;}.share-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;}.share-actions a,.share-actions button{min-height:44px;padding:10px 8px;text-align:center;display:flex;align-items:center;justify-content:center;}.caption-box{min-height:200px;}footer{padding:22px 16px;}}
+    @media(max-width:360px){.share-actions{grid-template-columns:1fr;}.brand-logo{width:84px;height:84px;}}
   </style>
 <meta property="og:type" content="website"><meta property="og:site_name" content="Electro Lounge"><meta property="og:title" content="Electro Lounge — A social lounge for electrical engineers"><meta property="og:image" content="https://rashedgrid-cyber.github.io/electro-lounge/privacy-assets/logo.png">
 </head>
@@ -127,6 +130,6 @@
   <div class="site-links"><a href="privacy.html">Privacy policy</a> · <a href="feed.xml">RSS feed</a></div>
 </footer>
 
-<script src="posts.js?v=20261015-full-images" defer></script>
+<script src="posts.js?v=20261017-mobile-share" defer></script>
 </body>
 </html>
