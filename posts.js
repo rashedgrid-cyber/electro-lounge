@@ -6,7 +6,16 @@
   styles.textContent = '.post-tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.post-tags a{border-radius:16px;padding:5px 10px;background:#e8f5f3;color:#083e48;text-decoration:none;font-size:13px}.post-hashtags{color:#075e66;overflow-wrap:anywhere}.caption-box{width:100%;box-sizing:border-box;min-height:230px;padding:12px;font:inherit;line-height:1.6}.share-note{font-size:13px;margin-top:10px}.share-actions{flex-wrap:wrap;gap:8px}.caption-preview{margin-top:12px}';
   document.head.append(styles);
   const tagsFor = item => [...new Set([...item.getElementsByTagName('category')].map(n => n.textContent.trim()).filter(Boolean))];
-  const hashtagsFor = tags => ['#ElectroLounge', ...tags.map(t => '#' + t.replace(/[^A-Za-z0-9]/g, '')).filter(t => t.length > 1)].join(' ');
+  const tagKey = value => String(value || '').replace(/[^A-Za-z0-9]/g, '');
+  const hashtagsFor = (tags, title, body) => {
+    const all = new Set(['ElectroLounge', 'ElectricalEngineering', 'PowerSystems', 'EnergyIndustry']);
+    for (const tag of tags) { const key = tagKey(tag); if (key) all.add(key); }
+    const subject = (title + ' ' + body + ' ' + tags.join(' ')).toLowerCase();
+    if (/\\bsubstations?\\b/.test(subject)) all.add('Substations');
+    if (/\\btransformers?\\b/.test(subject)) all.add('Transformers');
+    if (/\\btraining|\\bcourse|\\bwebinar|\\bapprentice|\\binternship|\\bgraduate/.test(subject)) all.add('EngineeringCareers');
+    return [...all].slice(0, 8).map(tag => '#' + tag).join(' ');
+  };
   const safeURL = value => { if (!String(value || '').trim()) return ''; try { const u = new URL(value, window.location.href); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
   const text = (item, tag) => item.getElementsByTagName(tag)[0]?.textContent?.trim() || '';
   function plainText(value) {
@@ -18,7 +27,9 @@
       const result = [...node.childNodes].map(read).join('');
       return result + (['P', 'DIV', 'LI'].includes(node.nodeName) ? '\n\n' : '');
     }
-    return read(template.content).replace(/\n{3,}/g, '\n\n').trim();
+    return read(template.content)
+      .replace(/^\s*(?:#[A-Za-z0-9_]+\s*)+$/gm, '')
+      .replace(/\n{3,}/g, '\n\n').trim();
   }
   function action(label, url) { const a = document.createElement('a'); a.textContent = label; a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
   async function render() {
@@ -44,9 +55,9 @@
         else { const label = document.createElement('p'); label.className = 'post-meta'; label.textContent = 'Text-only post'; article.append(label); }
         const p = document.createElement('p'); p.className = 'post-text'; p.textContent = body; article.append(p);
         const permalink = source && source.startsWith(window.location.origin + '/electro-lounge/posts/') ? new URL(source) : new URL(window.location.pathname, window.location.origin); if (!permalink.pathname.includes('/posts/')) permalink.searchParams.set('post', key);
-        const tags = tagsFor(item); const hashtags = hashtagsFor(tags);
+        const tags = tagsFor(item); const hashtags = hashtagsFor(tags, title, body);
         const tagList = document.createElement('div'); tagList.className = 'post-tags'; tagList.setAttribute('aria-label', 'Post topics');
-        for (const tag of tags) { const tagURL = new URL(window.location.pathname, window.location.origin); tagURL.searchParams.set('tag', tag); const a = document.createElement('a'); a.href = tagURL.href; a.textContent = tag; tagList.append(a); } article.append(tagList);
+        for (const tag of tags.filter(tag => tagKey(tag).toLowerCase() !== 'electrolounge')) { const tagURL = new URL(window.location.pathname, window.location.origin); tagURL.searchParams.set('tag', tag); const a = document.createElement('a'); a.href = tagURL.href; a.textContent = tag; tagList.append(a); } article.append(tagList);
         const hashLine = document.createElement('p'); hashLine.className = 'post-hashtags'; hashLine.textContent = hashtags; article.append(hashLine);
         const caption = title + '\n\n' + body + '\n\n' + hashtags;
         const preview = document.createElement('details'); preview.className = 'caption-preview'; const summary = document.createElement('summary'); summary.textContent = 'Ready-to-publish caption';
@@ -57,7 +68,7 @@
         function shareButton(platform, url) { const a = action('Copy & share on ' + platform, url); a.addEventListener('click', async event => { if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return; event.preventDefault(); window.open(url, '_blank', 'noopener,noreferrer'); const copied = await copyCaption(); note.textContent = copied ? 'Caption copied, including hashtags. In ' + platform + ', paste it with Ctrl+V (or Paste on mobile), review, then publish.' : 'Select and copy the caption below, then paste it into ' + platform + '.'; }); return a; }
         shares.append(shareButton('Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(permalink.href)), shareButton('LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(permalink.href)));
         const copy = document.createElement('button'); copy.type = 'button'; copy.textContent = 'Copy full caption'; copy.addEventListener('click', async () => { const ok = await copyCaption(); note.textContent = ok ? 'Caption copied: post text, emojis and hashtags. No links included.' : 'Select and copy the caption below.'; }); shares.append(copy);
-        if (image) { const download = action('Download full-size image', image.replace('https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/', window.location.origin + '/electro-lounge/')); download.download = image.split('/').pop(); download.removeAttribute('target'); shares.append(download); }
+        if (image) shares.append(action('Open full-size image', image));
         article.append(shares, note, preview); root.append(article);
       }
       status.textContent = visible.length ? visible.length + (visible.length === 1 ? ' post' : ' posts') : selected ? 'This post is not in the current feed.' : 'No posts published yet.';
