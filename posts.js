@@ -7,13 +7,20 @@
   document.head.append(styles);
   const tagsFor = item => [...new Set([...item.getElementsByTagName('category')].map(n => n.textContent.trim()).filter(Boolean))];
   const tagKey = value => String(value || '').replace(/[^A-Za-z0-9]/g, '');
+  const companyTagFor = title => {
+    const match = String(title || '').match(/^([A-Z][A-Za-z0-9.&-]*(?:\s+[A-Z][A-Za-z0-9.&-]*){0,2})\s+(?:Installs|Secures|Launches|Invests|Unveils|Completes|Awards|Signs|Develops|Announces|Introduces|Partners|Wins)\b/);
+    if (!match) return '';
+    const candidate = match[1].replace(/[^A-Za-z0-9]/g, '');
+    return candidate.length > 2 ? candidate : '';
+  };
   const hashtagsFor = (tags, title, body) => {
-    const all = new Set(['ElectroLounge', 'ElectricalEngineering', 'PowerSystems', 'EnergyIndustry']);
+    const all = new Set(['ElectroLounge', 'ElectricalEngineering', 'PowerSystems', 'EnergyIndustry', 'Substation']);
     for (const tag of tags) { const key = tagKey(tag); if (key) all.add(key); }
     const subject = (title + ' ' + body + ' ' + tags.join(' ')).toLowerCase();
     if (/\\bsubstations?\\b/.test(subject)) all.add('Substations');
     if (/\\btransformers?\\b/.test(subject)) all.add('Transformers');
     if (/\\btraining|\\bcourse|\\bwebinar|\\bapprentice|\\binternship|\\bgraduate/.test(subject)) all.add('EngineeringCareers');
+    const company = companyTagFor(title); if (company) all.add(company);
     return [...all].slice(0, 8).map(tag => '#' + tag).join(' ');
   };
   const safeURL = value => { if (!String(value || '').trim()) return ''; try { const u = new URL(value, window.location.href); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
