@@ -3,24 +3,17 @@
   const root = document.getElementById('posts');
   const status = document.getElementById('feed-status');
   const styles = document.createElement('style');
-  styles.textContent = '.post-tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.post-tags a{border-radius:16px;padding:5px 10px;background:#e8f5f3;color:#083e48;text-decoration:none;font-size:13px}.post-hashtags{color:#075e66;overflow-wrap:anywhere}.caption-box{width:100%;box-sizing:border-box;min-height:230px;padding:12px;font:inherit;line-height:1.6}.share-note{font-size:13px;margin-top:10px}.share-actions{flex-wrap:wrap;gap:8px}.caption-preview{margin-top:12px}';
+  styles.textContent = '.card{background:#fff;border:1px solid #e1eaf2;border-radius:18px;padding:26px;margin:22px 0;box-shadow:0 8px 24px rgba(7,46,92,.08)}.card h3{margin:0 0 7px;color:#062d63;font-size:24px;line-height:1.3}.post-meta{color:#59708a;font-weight:600}.post-image{display:block;width:100%;max-height:none;aspect-ratio:1.91/1;object-fit:contain;background:#071e3a;border-radius:13px;margin:18px 0}.post-tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.post-tags a{border-radius:16px;padding:5px 10px;background:#e8f5f3;color:#083e48;text-decoration:none;font-size:13px}.post-hashtags{color:#075e66;overflow-wrap:anywhere;font-weight:600}.caption-box{width:100%;box-sizing:border-box;min-height:120px;padding:12px;font:inherit;line-height:1.6}.share-note{font-size:13px;margin-top:10px;color:#526477}.share-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.share-actions a,.share-actions button{border-radius:9px;padding:10px 14px;border:1px solid #0a497c;background:#fff;color:#063c6f;font-weight:700;text-decoration:none;cursor:pointer}.share-actions a:first-child{background:#0866ff;color:#fff;border-color:#0866ff}.share-actions a:nth-child(2){background:#0a66c2;color:#fff;border-color:#0a66c2}.caption-preview{margin-top:14px;border-top:1px solid #e1eaf2;padding-top:12px}@media(max-width:600px){.card{padding:18px;border-radius:14px}.card h3{font-size:20px}.share-actions{display:grid;grid-template-columns:1fr}.share-actions a,.share-actions button{text-align:center;justify-content:center;min-height:44px}.post-image{border-radius:10px}}';
   document.head.append(styles);
   const tagsFor = item => [...new Set([...item.getElementsByTagName('category')].map(n => n.textContent.trim()).filter(Boolean))];
   const tagKey = value => String(value || '').replace(/[^A-Za-z0-9]/g, '');
-  const companyTagFor = title => {
-    const match = String(title || '').match(/^([A-Z][A-Za-z0-9.&-]*(?:\s+[A-Z][A-Za-z0-9.&-]*){0,2})\s+(?:Installs|Secures|Launches|Invests|Unveils|Completes|Awards|Signs|Develops|Announces|Introduces|Partners|Wins)\b/);
-    if (!match) return '';
-    const candidate = match[1].replace(/[^A-Za-z0-9]/g, '');
-    return candidate.length > 2 ? candidate : '';
-  };
   const hashtagsFor = (tags, title, body) => {
-    const all = new Set(['ElectroLounge', 'ElectricalEngineering', 'PowerSystems', 'EnergyIndustry', 'Substation']);
+    const all = new Set(['ElectroLounge', 'ElectricalEngineering', 'PowerSystems', 'EnergyIndustry']);
     for (const tag of tags) { const key = tagKey(tag); if (key) all.add(key); }
     const subject = (title + ' ' + body + ' ' + tags.join(' ')).toLowerCase();
     if (/\\bsubstations?\\b/.test(subject)) all.add('Substations');
     if (/\\btransformers?\\b/.test(subject)) all.add('Transformers');
     if (/\\btraining|\\bcourse|\\bwebinar|\\bapprentice|\\binternship|\\bgraduate/.test(subject)) all.add('EngineeringCareers');
-    const company = companyTagFor(title); if (company) all.add(company);
     return [...all].slice(0, 8).map(tag => '#' + tag).join(' ');
   };
   const safeURL = value => { if (!String(value || '').trim()) return ''; try { const u = new URL(value, window.location.href); return ['http:', 'https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
@@ -66,14 +59,15 @@
         const tagList = document.createElement('div'); tagList.className = 'post-tags'; tagList.setAttribute('aria-label', 'Post topics');
         for (const tag of tags.filter(tag => tagKey(tag).toLowerCase() !== 'electrolounge')) { const tagURL = new URL(window.location.pathname, window.location.origin); tagURL.searchParams.set('tag', tag); const a = document.createElement('a'); a.href = tagURL.href; a.textContent = tag; tagList.append(a); } article.append(tagList);
         const hashLine = document.createElement('p'); hashLine.className = 'post-hashtags'; hashLine.textContent = hashtags; article.append(hashLine);
-        const caption = title + '\n\n' + body + '\n\n' + hashtags;
-        const preview = document.createElement('details'); preview.className = 'caption-preview'; const summary = document.createElement('summary'); summary.textContent = 'Ready-to-publish caption';
-        const box = document.createElement('textarea'); box.className = 'caption-box'; box.readOnly = true; box.value = caption; box.setAttribute('aria-label', 'Full post caption without links'); preview.append(summary, box);
-        const note = document.createElement('p'); note.className = 'share-note'; note.setAttribute('role', 'status'); note.textContent = 'The caption contains no links. Share lets you choose an app; review the post, then publish.';
+        const excerpt = body.replace(/\s+/g, ' ').slice(0, 190).replace(/\s+\S*$/, '') + (body.length > 190 ? '…' : ''); const caption = [title, excerpt, hashtags].filter(Boolean).join('\n\n');
+        const preview = document.createElement('details'); preview.className = 'caption-preview'; const summary = document.createElement('summary'); summary.textContent = 'Short social caption preview';
+        const box = document.createElement('textarea'); box.className = 'caption-box'; box.readOnly = true; box.value = caption; box.setAttribute('aria-label', 'Short social caption without links'); preview.append(summary, box);
+        const note = document.createElement('p'); note.className = 'share-note'; note.setAttribute('role', 'status'); note.textContent = 'The short caption contains no links. Share opens the article image preview; paste the caption, review, then publish.';
         async function copyCaption() { try { await navigator.clipboard.writeText(caption); return true; } catch { preview.open = true; box.focus(); box.select(); return false; } }
         const shares = document.createElement('div'); shares.className = 'share-actions';
-        const nativeShare = document.createElement('button'); nativeShare.type = 'button'; nativeShare.textContent = 'Share post'; nativeShare.addEventListener('click', async () => { const data = { title, text: caption, url: permalink.href }; const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent); if (mobile && navigator.share) { try { await navigator.share(data); note.textContent = 'Choose LinkedIn, Facebook, or another app from your device share menu, then review and publish.'; return; } catch (error) { if (error?.name === 'AbortError') return; } } const copied = await copyCaption(); window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(permalink.href), '_blank', 'noopener,noreferrer'); note.textContent = copied ? 'Caption copied. In LinkedIn, click the text area and press Ctrl+V, then review and publish.' : 'Select and copy the caption below, then paste it into LinkedIn.'; }); shares.append(nativeShare);
-        const copy = document.createElement('button'); copy.type = 'button'; copy.textContent = 'Copy full caption'; copy.addEventListener('click', async () => { const ok = await copyCaption(); note.textContent = ok ? 'Caption copied: post text, emojis and hashtags. No links included.' : 'Select and copy the caption below.'; }); shares.append(copy);
+        function shareButton(platform, url) { const a = action('Copy & share on ' + platform, url); a.addEventListener('click', async event => { if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return; event.preventDefault(); window.open(url, '_blank', 'noopener,noreferrer'); const copied = await copyCaption(); note.textContent = copied ? 'Caption copied, including hashtags. In ' + platform + ', paste it with Ctrl+V (or Paste on mobile), review, then publish.' : 'Select and copy the caption below, then paste it into ' + platform + '.'; }); return a; }
+        shares.append(shareButton('Facebook', 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(permalink.href)), shareButton('LinkedIn', 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(permalink.href)));
+        const copy = document.createElement('button'); copy.type = 'button'; copy.textContent = 'Copy short caption'; copy.addEventListener('click', async () => { const ok = await copyCaption(); note.textContent = ok ? 'Short caption copied with hashtags. No links included.' : 'Select and copy the caption below.'; }); shares.append(copy);
         if (image) shares.append(action('Open full-size image', image));
         article.append(shares, note, preview); root.append(article);
       }
