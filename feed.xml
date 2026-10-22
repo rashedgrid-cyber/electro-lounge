@@ -601,6 +601,29 @@ Electrical professionals will find this development relevant both as a proof-of-
 <pubDate>Tue, 20 Oct 2026 03:23:55 GMT</pubDate>
 <source url="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPazlmSThuWmEta29SZEFNd2Y1ckl5enFvM0NwZE4xWnhXektKUDRFS21odzdiTGllSTRnWWNJb0o5aVFpNUkzRXd4QlJVVHZMNE5GZkFQZ0RQLVAxUjVNTXhGM0lUNjh6ZlR4dXdPbFozSDlFTmp4VGktaWNnenRJMG1FUDVwT0YwSHczNWVBR29QMmUtdVNhLXgxWnFIY0M2VUYxUXVzWF9jQkV6ekVXZ2MtSmZsV1BIRXQ5dTBwNkc?oc=5">W05 — battery energy storage</source>
 </item>
+<item>
+<title>Solid-State Reliability: Delcon Oy Featured in the Electro Lounge Market Radar</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/0b87d9a78db9baf1.html</link>
+<guid isPermaLink="true">https://delcon.fi/</guid>
+<description>This company is featured in the Electro Lounge Market Radar for its proven relevance to electrical-engineering applications. Delcon Oy, based in Finland, manufactures industrial solid-state relays designed to meet the demands of modern electrical engineering environments. Solid-state relays (SSRs) are switching devices that control power to loads while offering distinct advantages over traditional electromechanical relays.
+
+Unlike mechanical relays, which use moving parts to open or close circuits, solid-state relays operate electronically. This provides fast switching, long service life, and noise-free operation. In industrial automation, SSRs are commonly used to control heaters, lamps, motors, and other loads in manufacturing and process control environments. Their ability to manage high-frequency switching without mechanical wear makes them ideal for applications requiring reliability and minimal maintenance.
+
+A major benefit of solid-state relays is electrical isolation between input and output circuits. This feature protects sensitive control electronics from potential surges or faults on the load side, improving operational safety and reducing downtime. SSRs can also offer silent operation and are particularly valued in clean or vibration-sensitive environments where contact arcing or click sounds from mechanical relays can be disruptive.
+
+Application areas for solid-state relays include industrial automation, process control, building automation, power management, and HVAC systems. Engineers may select them for use in control panels, PLC interfaces, and safety interlocking systems where dependable switching and low-noise operation are necessary. Delcon Oy’s products are recognized for their robust build and suitability in challenging industrial installations.
+
+As with all component selections, engineers are encouraged to verify current technical specifications, approvals, and compatibility requirements to ensure suitable operation within their chosen application before making selection or procurement decisions.</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-c132104f5d17.png" length="835168" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Substation</category>
+<category>Delcon Oy</category>
+<category>Finland</category>
+<pubDate>Thu, 22 Oct 2026 09:52:56 GMT</pubDate>
+<source url="https://delcon.fi/">Electro Lounge market radar</source>
+</item>
 </channel>
 
 </rss>
