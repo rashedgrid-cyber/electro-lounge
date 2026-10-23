@@ -1224,6 +1224,118 @@ Bringing in new generation transformers, as part of the collaboration between Ge
 <pubDate>Fri, 23 Oct 2026 14:24:45 GMT</pubDate>
 <source url="https://news.google.com/rss/articles/CBMigwFBVV95cUxQWmFkdl8yQmt5T05jOUk3X1B3eUNBM1ZUT2M1ZGxvNEEyYzRObmJ2S0xlSF93U0RENGx4ZzJZZUFCTm5HalByQlNQeXdSM1ByV1NsaFZBZnhzd3V6Q2lBNnpUVkxIeGJYZl9HdXE1aFJpSjFaQjhVaWFWUmw4V3ZhQ3Bqbw?oc=5">GE Vernova — HVDC</source>
 </item>
+<item>
+<title>Prototype Transformer Demonstrates Active Voltage Compensation Innovation</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/ce0be7cf9579b5b3.html</link>
+<guid isPermaLink="true">https://transformer-magazine.com/news/transformer-prototype-integrates-active-voltage-compensation/</guid>
+<description>A recent development in transformer technology, published in October 2026, is attracting attention within the electrical engineering community for its practical approach to voltage management at the distribution level. The prototype, outlined in Transformer Magazine, integrates an active voltage compensation mechanism, enabling it to maintain output stability under significant loads.
+
+The core feature of this transformer lies in its ability to regulate an input of 212 volts alternating current (AC) and produce a consistent 220 volts AC output, even when operating under a substantial load of 25.6 kilowatts (kW). This capability is crucial in power systems where voltage fluctuations can compromise equipment performance and longevity. Consistently delivering stable voltage is vital for both end-users and the reliability of electrical infrastructure.
+
+Key to the design is the combination of continuous transformer condition monitoring with Advanced Metering Infrastructure (AMI) communication. AMI refers to systems that provide automated, two-way communication between utilities and consumers, allowing for more granular data collection and network visibility. When integrated into transformer operation, AMI enhances the detection of events like voltage drops, overloading, or other anomalies, all in real time. This type of smart grid component empowers utilities to respond rapidly to changing grid conditions and supports proactive maintenance.
+
+The prototype targets distribution transformers—critical devices that step down voltage for delivery in local networks. As electricity travels from generation sites through high-voltage transmission lines, it eventually reaches distribution transformers which adjust voltage to levels safe for homes and businesses. Maintaining a precise voltage at this stage has historically depended on simple tap changers or passive regulation devices, which may be slow to react or lack communication capabilities. Active voltage compensation goes beyond this, using electronic circuits and control algorithms to sense voltage changes instantly and correct them, even when demand spikes or fluctuating supply occurs.
+
+For electrical professionals, such advancements indicate a shift toward more intelligent, responsive power electronics in distribution networks. Integrating active compensation with AMI lays a foundation for smarter, more dynamic grid management. This approach facilitates improved power quality, reduces maintenance costs through condition monitoring, and supports the transition toward digitalized, resilient energy systems.
+
+While broader commercial application and field-scale results are not yet confirmed based on the published report, the described prototype represents a tangible step toward the next generation of distribution transformers—ones that are not just passive links but active participants in grid optimization. The collaboration of voltage compensation and communication technology marks an important trend: making essential grid components both smarter and more adaptable to the evolving needs of modern utilities and consumers alike.
+
+For engineers and grid operators, keeping track of such innovations can help inform future investments in network upgrades, power quality assurance, and integrated monitoring solutions.
+
+🛠️🔌📊</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-f67b7780654e.png" length="730805" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Energy Industry</category>
+<category>Substation</category>
+<category>Global</category>
+<pubDate>Fri, 23 Oct 2026 08:36:39 GMT</pubDate>
+<source url="https://transformer-magazine.com/news/transformer-prototype-integrates-active-voltage-compensation/">Transformer Magazine</source>
+</item>
+<item>
+<title>Uungula Wind Substation Connects 414 MW Project to the New South Wales Grid</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/f2f36e4ef9730135.html</link>
+<guid isPermaLink="true">https://transformer-magazine.com/news/uungula-energises-three-transformer-wind-substation/</guid>
+<description>In New South Wales, Australia, a significant milestone has been achieved in renewable energy infrastructure with the energisation of a new wind power substation as part of the Uungula project. The facility, described as a 330 / 33 kilovolt (kV) substation, now connects a major 414 megawatt (MW) wind project to the local grid through nearly 12 kilometers of dedicated transmission line.
+
+Key Players and Location
+The Uungula substation forms a crucial link in the energy landscape of New South Wales. The project involves organizations such as Squadron Energy and Lumea, both referenced in the context of its development and operation. This grid connection is specifically tailored to enable large-scale renewable energy integration within the region.
+
+Technical Overview
+The substation is equipped with three power transformers. Transformers play a vital role in adjusting voltage levels for efficient transmission and distribution of electricity. In this case, electricity generated at 33 kV by the wind farm is stepped up to 330 kV for transmission. Higher voltage transmission is beneficial because it reduces energy losses over long distances, allowing more power to be delivered to homes and businesses further away.
+
+The associated nearly 12 km transmission line ensures that the wind-generated power travels securely from the remote generation site to where it&apos;s required in the grid. The ability to convert power between voltage levels is foundational to modern electrical networks, supporting both reliability and flexibility.
+
+Project Scale and Purpose
+With a capacity of 414 MW, the Uungula wind project is an example of large-scale renewable integration. Renewable projects of this capacity help diversify energy sources, support local sustainability goals, and contribute to grid stability.
+
+By providing an efficient way to transfer renewable electricity, the new substation helps address the technical challenges of integrating variable energy sources, such as wind, into the existing power system. Specialized transformer substations like this one can support grid operators by delivering consistent voltage and reliable transmission, even as wind generation fluctuates.
+
+Broader Impact for Power Professionals
+This development illustrates ongoing investment in modern transmission and substation infrastructure—key interests for electrical engineers, grid operators, and planners. As renewable energy projects scale up, engineering solutions for seamless grid integration become increasingly important.
+
+Power professionals monitoring the deployment of large power transformers, new substation technology, and regional grid upgrades will find the Uungula project relevant as a current, real-world case. Observing such projects provides useful, up-to-date references for transformer specification, grid connection approaches, and overall system planning in the context of renewable energy growth.
+
+The Uungula wind substation stands as a current example of how targeted infrastructure can bridge new generation assets and established grids in the quest for a more sustainable, reliable power system in Australia. 
+
+🌬️⚡</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-575b5e12ca30.png" length="778589" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Energy Industry</category>
+<category>Substation</category>
+<category>Squadron Energy</category>
+<category>Lumea</category>
+<category>Australia</category>
+<pubDate>Fri, 23 Oct 2026 08:25:00 GMT</pubDate>
+<source url="https://transformer-magazine.com/news/uungula-energises-three-transformer-wind-substation/">Transformer Magazine</source>
+</item>
+<item>
+<title>Vantage Secures Over 1 GW of Solid State Transformer Supply for U.S. Data Centres</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/ae5c8751d708c7d9.html</link>
+<guid isPermaLink="true">https://transformer-magazine.com/news/vantage-secures-over-1-gw-sst-supply/</guid>
+<description>A major development in the U.S. data centre sector has taken place, as Vantage has secured over 1 gigawatt (GW) of solid state transformer (SST) supply from Heron Power. These modular converters are set to support 800-volt direct current (DC) rack deployment across Vantage’s portfolio of hyperscale data centres.
+
+Background and Organizations Involved
+Vantage is a well-known operator of hyperscale data centres in the United States. Heron Power specializes in manufacturing advanced solid state transformers. The partnership between these two organizations reflects a significant step forward for U.S. infrastructure, particularly as power systems demand smarter, more efficient solutions to handle the ever-increasing needs of data centres.
+
+What Are Solid State Transformers?
+Solid state transformers (SSTs) are advanced power converters that use semiconductor components instead of the traditional copper and iron found in conventional transformers. This new technology allows for greater efficiency, compact size, and improved control over electricity flow. Modular SSTs make it easier to scale data centre power, manage loads, and enable the transition to higher DC voltages, which can benefit both operational flexibility and energy savings.
+
+Key Technical Details
+The confirmed supply involves over 1 GW of capacity and is designed for the deployment of 800 V DC racks. A direct current rack at 800 volts allows for higher efficiency and reduced energy losses compared to lower-voltage systems. This voltage level supports the needs of large-scale digital infrastructures that require reliable, high-capacity, and energy-efficient power delivery.
+
+Why This Matters to Electrical Professionals
+For electrical engineers and professionals, this announcement has several points of significance:
+
+- Large-scale SST adoption: An order of over 1 GW shows accelerating industry acceptance of solid state transformers in critical infrastructure settings.
+- Support for higher-voltage DC: The move to 800 V DC rack systems is gaining traction in the data centre sector, potentially offering reduced conversion losses and improved equipment performance.
+- Modular converter technology: Modular SSTs can offer scalability and simplified maintenance—a trend worth watching as more facilities pursue digital expansion.
+
+Broader Industry Impact
+Data centres are among the fastest-growing segments driving demand for advanced power infrastructure. The commitment to 800 V DC racks and modular SSTs indicates a broader trend where leading operators invest in both efficiency and future scalability. For electrical professionals, learning about these technologies and their integration into real-world projects can be valuable for staying up to date with industry best practices and next-generation equipment.
+
+Project Status and Next Steps
+According to the latest developments, Heron Power’s modular converters are being prepared for deployment across Vantage’s facilities. This supply supports Vantage’s strategy of advancing power systems in its hyperscale data centres, located throughout the United States. Specific project timelines, funding details, and technical performance results were not disclosed in the source material.
+
+Takeaway
+This development marks an important step in how advanced power electronics are being integrated into mission-critical environments for improved efficiency and scalability. For those involved in power systems design, manufacturing, or project management, this partnership underscores the importance of staying current with SST technology and the shift towards high-voltage DC distribution in the data centre industry.⚡🏢
+
+#ElectroLounge #PowerSystems #ElectricalEngineering #UnitedStates #Vantage #HeronPower</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-408218da6b03.png" length="734081" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Energy Industry</category>
+<category>Substation</category>
+<category>Vantage</category>
+<category>Heron Power</category>
+<category>United States</category>
+<pubDate>Thu, 22 Oct 2026 07:21:31 GMT</pubDate>
+<source url="https://transformer-magazine.com/news/vantage-secures-over-1-gw-sst-supply/">Transformer Magazine</source>
+</item>
 </channel>
 
 </rss>
