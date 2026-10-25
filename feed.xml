@@ -1480,6 +1480,24 @@ For those interested in current specifications and application suitability, user
 <pubDate>Sun, 25 Oct 2026 09:01:57 GMT</pubDate>
 <source url="https://mastra-electric.com/">Electro Lounge market radar</source>
 </item>
+<item>
+<title>Why a Current Transformer Needs a Continuous Secondary Circuit</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/f8bd7fa24c176622.html</link>
+<guid isPermaLink="true">https://www.se.com/us/en/faqs/FA125574/</guid>
+<description>A current transformer (CT) is a device that produces a small, proportional current for measuring or protection circuits. The CT has a primary winding (carrying the main current) and a secondary winding connected to a measuring or protection burden (the load on the secondary side). For safety and accurate operation, the secondary circuit must always stay connected while primary current flows. 
+
+If the secondary circuit is opened accidentally, the transformer&apos;s action can generate a dangerously high voltage, which could damage equipment or endanger personnel. Shorting arrangements are used to keep the secondary circuit intact during approved work. 
+
+For example, imagine a relay connected to a CT&apos;s secondary. If the relay no longer detects current, that does not automatically mean the main conductor has no current. Other factors—like an open secondary circuit—could be involved. Therefore, missing relay current cannot alone prove there is no primary current.
+
+In short, a continuous secondary circuit is essential for safe and reliable CT operation and for interpreting current signals accurately.</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-f4940158c14c.png" length="36816" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Technical Articles</category>
+<pubDate>Sun, 25 Oct 2026 09:03:22 GMT</pubDate>
+<source url="https://www.se.com/us/en/faqs/FA125574/">Technical reference</source>
+</item>
 </channel>
 
 </rss>
