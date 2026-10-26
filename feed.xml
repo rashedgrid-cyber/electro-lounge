@@ -1550,6 +1550,24 @@ Potential users should verify product specifications, suitability, and complianc
 <pubDate>Mon, 26 Oct 2026 09:34:18 GMT</pubDate>
 <source url="https://chhpgroup.com/">Electro Lounge market radar</source>
 </item>
+<item>
+<title>Why a Trip Command Isn&apos;t Proof a Breaker Opened</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/2eee5ad58b293a6f.html</link>
+<guid isPermaLink="true">https://cdn.selinc.com/assets/Literature/Publications/Technical%20Papers/6491_ImprovingBreaker_MT_20110912_Web2.pdf</guid>
+<description>In electrical systems, a &apos;trip command&apos; signals a circuit breaker to open. However, this command does not prove the breaker actually opened. Breaker failure detection often uses both current measurements and mechanical &apos;auxiliary contacts&apos; to check the open status.
+
+Auxiliary contacts are secondary devices, not part of the main breaker path. They signal position changes, but can malfunction and might not perfectly match the actual interruption status. Current measurements show if current stopped, but low-current conditions can make detection difficult.
+
+Trip command, auxiliary contact signals, and current readings are all separate evidence. No single one confirms what happened. For instance, receiving a trip command and an auxiliary contact open signal could still leave current flowing if contacts misreport or stick. Proof requires using several indications together.
+
+The discussed concepts are based on generator protection applications. These details may not describe other situations. Always treat supporting drawings and status screens as illustrative, not as real event proof.</description>
+<enclosure url="https://raw.githubusercontent.com/rashedgrid-cyber/electro-lounge/main/images/posts/post-1ab3bcbbd371.png" length="35967" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Technical Articles</category>
+<pubDate>Mon, 26 Oct 2026 09:36:21 GMT</pubDate>
+<source url="https://cdn.selinc.com/assets/Literature/Publications/Technical%20Papers/6491_ImprovingBreaker_MT_20110912_Web2.pdf">Technical reference</source>
+</item>
 </channel>
 
 </rss>
