@@ -1572,15 +1572,70 @@ The discussed concepts are based on generator protection applications. These det
 <title>Illinois Approves ComEd Project for Four Underground 138 kV Transmission Lines and New Substation Near O’Hare</title>
 <link>https://rashedgrid-cyber.github.io/electro-lounge/posts/eb342b71f7d92bed.html</link>
 <guid isPermaLink="true">https://transformer-magazine.com/news/illinois-approves-comed-substation-and-lines/</guid>
-<description>Illinois regulators have approved a new transmission project proposed by ComEd. The plans include constructing four underground transmission lines, each rated at 138 kilovolts (kV), as well as a new substation to be built near O’Hare International Airport. The project is expected to enter service in 2029.
+<description>
 
-For electrical professionals, understanding the process behind such infrastructure projects is vital. Projects like these are key examples of how utilities plan and implement upgrades to serve urban centers and critical infrastructure hubs. This project specifically demonstrates the use of underground high-voltage lines, which are often selected in dense metropolitan areas where space is limited or where minimizing above-ground disruption is a priority.
+A 138 kV rating does not tell you how much power a circuit can carry.
+ ComEd’s approved project near Chicago O’Hare International Airport offers a useful starting point for learning how transmission voltage, cable heating and substation design fit together.
 
-General engineering background: Underground transmission lines at 138 kV are used to transmit electricity over relatively long distances within cities or between substations. Specialized insulation and thermal management systems are required to ensure reliability and safe operation below ground. Building a new substation alongside these lines involves precise design to manage incoming high-voltage circuits and distribute power to local distribution networks efficiently.
+What has actually been approved?
 
-This development provides a practical case for engineers to examine design, permitting, and scheduling considerations for major urban electrical infrastructure projects.
+The Illinois Commerce Commission has approved ComEd’s Grid Reliability Infrastructure Transformation (GRIT) project: four underground 138-kilovolt (kV) transmission lines and a new substation in Cook and DuPage counties. ComEd expects the project to enter service in the second quarter of 2029. Its announcement identifies airport-related height restrictions as a reason for choosing underground construction. Approval is permission to build; it does not mean the equipment is installed or energised.
 
-#ElectroLounge</description>
+Read the voltage before guessing the capacity
+
+A kilovolt is 1,000 volts. In a three-phase network, 138 kV normally describes the nominal voltage between phases. It is a voltage level, not a power rating. To estimate current, you also need the power being transferred.
+
+Worked example — illustrative, not a GRIT design value:
+ suppose a balanced three-phase circuit carries 50 megavolt-amperes (MVA), a measure of apparent power, at 138 kV. Its approximate line current is:
+
+I = S / (√3 × V) = 50,000,000 / (√3 × 138,000) ≈ 209 A
+
+Here, 
+I
+ is current in amperes, 
+S
+ is apparent power in volt-amperes and 
+V
+ is the voltage between phases in volts. Active power, measured in megawatts (MW), also depends on power factor. This calculation estimates operating current; it does not establish the cable’s allowable current. Conductor size, installation conditions and thermal limits still need to be checked.
+
+Why burying a line changes the engineering
+
+Current heats a conductor through its electrical resistance. The resistive heating is proportional to current squared, so doubling the current produces roughly four times that heating if resistance is unchanged. An underground installation must transfer the heat through its surrounding materials. Soil conditions, burial arrangement and nearby loaded cables therefore matter to the current the installation can carry.
+
+A cable also has capacitance between its conductor and surrounding earthed layers. On an alternating-current (AC) system, this draws charging current even when little useful power reaches the far end. The amount depends on cable length, capacitance and voltage. Engineers assess the resulting voltage and reactive-power behaviour; compensation may be needed on some installations. The announcement alone does not establish whether GRIT needs such equipment.
+
+What the substation contributes
+
+A busbar connects circuits at a common electrical point. Circuit breakers interrupt current, while protection relays evaluate measured electrical quantities and issue trip commands when their configured criteria are met. Current transformers and voltage transformers provide scaled measurements for protection and metering.
+
+Do not assume that every substation steps the voltage down. Some mainly provide switching and network connections. A single-line diagram is needed to establish the actual arrangement, including transformers, bus sections and circuit connections. The project headline supplies none of those details.
+
+One fault scenario to think through
+
+Illustrative learning case:
+ one cable circuit develops an insulation fault. Protection identifies the affected zone and the associated breakers are expected to disconnect it. Whether supply can continue through another route depends on the actual network arrangement, available capacity and protection coordination. Four circuits do not, by themselves, prove that any one circuit can be lost without interrupting customers.
+
+For a commissioning engineer, that distinction connects the drawing to the evidence: are the measurement circuits identified correctly, do trip commands reach the intended breakers, and do indications represent the intended equipment? Those are engineering questions, not instructions for operating or bypassing a live installation.
+
+What to ask when you next see a transmission headline
+
+What is confirmed: voltage, number of circuits, location and programme?
+
+What remains unknown: cable ratings, installation conditions, substation arrangement and network studies?
+
+What establishes reliability: the actual circuit connections, capacity under equipment outages and protection behaviour?
+
+The useful habit is to keep voltage, power transfer and reliability separate. The same reasoning applies to an industrial connection or an extension to an existing substation: start with the single-line diagram and ratings, then ask how heat, faults and unavailable equipment constrain the design.
+
+Sources and further reading
+
+ComEd: GRIT project
+ · 
+ComEd’s regulatory petition
+ · 
+National Grid: underground cable engineering considerations
+. Project facts are distinguished above from general teaching and illustrative examples.
+</description>
 <enclosure url="https://images.electrolounge.net/post-49c8ca3affd031fde92614c2e97e5e7595c4f7861cf295ee0f1767bc481c2d70.png" length="795761" type="image/png" />
 <category>Electro Lounge</category>
 <category>Electrical Engineering</category>
