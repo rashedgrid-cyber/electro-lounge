@@ -1648,6 +1648,134 @@ National Grid: underground cable engineering considerations
 <pubDate>Wed, 28 Oct 2026 07:50:40 GMT</pubDate>
 <source url="https://transformer-magazine.com/news/illinois-approves-comed-substation-and-lines/">Transformer Magazine</source>
 </item>
+<item>
+<title>HUACHEN POWER: Practical Insights into Transformer and Substation Solutions</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/dd030e9c58c84280.html</link>
+<guid isPermaLink="true">https://www.huachenpower.com/distributor/</guid>
+<description>Why should an early-career electrical engineer study HUACHEN POWER’s company profile? By examining HUACHEN POWER’s transformer and substation offerings, a new engineer can learn how diverse transformer designs serve specific project duties, and how equipment selection adapts to voltage, load profile, installation environment, and system standards. This review leverages direct statements from HUACHEN POWER’s official resources and adheres to sound engineering explanation principles.
+
+Overview and Market Role
+HUACHEN POWER describes itself as a focused transformer manufacturer serving more than 30 countries. It supplies power transformers, switchgear, and packaged substations, supporting utility distribution, transmission up to 220 kV, renewable energy, industrial facilities, and customized low-voltage and specialty transformer needs. Product support includes OEM (Original Equipment Manufacturer) branding, regional distributor protection, documentation in English, and after-sales technical service.
+
+Transformer Types and Configurations: What Engineers Need to Know
+HUACHEN POWER’s documented product scope covers:
+- Oil-immersed and dry-type distribution transformers from 50 kVA to several thousand kVA
+- Power transformers for substations up to 220 kV and 400 MVA
+- Step-up (e.g., solar, wind inverter duty) transformers designed around BESS (Battery Energy Storage System) or renewable converter applications, with attention to harmonics and cyclic loading
+- Packaged substations, transformer skids, and integrated systems for rapid deployment
+- MV (Medium Voltage) and LV (Low Voltage) switchgear assemblies for different installation requirements
+
+Illustrative Substation Scenario: Design and Deployment Flow
+A common practical scenario is specifying a 110 kV substation transformer for utility network expansion. HUACHEN POWER claims to provide three-phase, oil-immersed power transformer platforms engineered to standards like IEC 60076 and IEEE C57, with published configuration options. The engineer’s process involves:
+1. Reviewing the voltage class, capacity (e.g., 31,500 kVA), and project duty
+2. Confirming load cycle, harmonics, ambient conditions, and protection requirements
+3. Requesting full English documentation, including drawings, test records, and manuals
+4. Coordinating delivery, production updates, and post-installation support such as spare parts and troubleshooting
+
+Such an arrangement requires verifying transformer cooling type, tap changer configuration, and the match with upstream and downstream equipment to ensure system integrity and operational safety. Engineers must not assume catalogue specifications fit all applications—project-specific review is essential.
+
+Practical Limitation and Lesson
+Product ratings and features cited by HUACHEN POWER are always subject to customer specification and project confirmation. It is necessary to verify that the selected transformer or packaged substation complies with current IEC or IEEE standards and matches site-specific requirements (e.g., environmental, protection, and testing scope). Never rely solely on catalogue values without technical approval, as network conditions or operating cycles may differ from standard assumptions.
+
+Professional Value
+By learning from HUACHEN POWER’s structure—offering project-configured transformer designs and substation solutions—engineers develop the competency to critically evaluate equipment suitability, cross-check documentation, and coordinate specification with suppliers. This supports robust project delivery, safe commissioning, and effective long-term operation.
+
+For further detail or up-to-date product information, readers should refer to HUACHEN POWER’s official resources and seek direct engineering consultation for active projects.</description>
+<enclosure url="https://images.electrolounge.net/post-61c291971254ddd41e4c0234e626670c20c519f7c92c128f9cd269f5410f7743.png" length="779267" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Substation</category>
+<category>HUACHENPOWER</category>
+<category>Global</category>
+<category>Power Transformers</category>
+<category>Substations</category>
+<category>Renewable Energy</category>
+<category>Industrial Power</category>
+<category>Switchgear</category>
+<category>Engineering Insights</category>
+<category>Companies</category>
+<category>Energy Industry</category>
+<category>Transformers</category>
+<pubDate>Thu, 29 Oct 2026 09:29:12 GMT</pubDate>
+<source url="https://www.huachenpower.com/distributor/">Electro Lounge market radar</source>
+</item>
+<item>
+<title>Inside Reroy Electric: Cables and Transformers Engineered for African Power Infrastructure</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/531403b9f12714c2.html</link>
+<guid isPermaLink="true">https://www.reroyelectric.com/en/about</guid>
+<description>Why read this profile? As a newly qualified electrical engineer looking to understand large-scale cable and transformer manufacturing in West Africa, you will discover practical details about Reroy Electric’s products, standards, and their real-world use in substations and energy infrastructure. This article offers concrete insight into engineering applications and manufacturing compliance—fundamental for anyone aiming to work on grid projects or power system design in comparable environments.
+
+Company in Context
+Reroy Electric, according to its own claims, is a manufacturer of electrical cables, transformers, and power infrastructure solutions serving the West African market since 1992. Its facility, reportedly the largest of its kind in Ghana, is located in Tema’s Heavy Industrial Area. Products are specified as compliant with several international standards, including British Standards (BS), International Electrotechnical Commission (IEC), and Underwriters Laboratories (UL), and are stated to be engineered for regional conditions.
+
+Range of Equipment
+Evidence from the company describes a product range that includes:
+- Cables &amp; Conductors: Overhead and underground cables, building wires, multi-core, LV (low voltage) and MV (medium voltage) power cables, and telecommunication cables. LV is typically defined here as 0.6/1 kilovolt (kV); MV up to 18/30 kV.
+- Transformers &amp; Substations: Oil-immersed distribution transformers (25 kVA–1,000 kVA, with voltages such as 11kV/415V and 33kV/415V); industrial-grade power transformers up to 5 MVA; compact substations pre-engineered for fast deployment (e.g., 315 kVA–1,000 kVA capacities); and dry-type transformers for indoor or fire-rated settings.
+- Accessories &amp; Logistics: Installation equipment, termination kits, and jointing accessories.
+
+Illustrative Substation Scenario (Educational Example)
+Imagine you are tasked with specifying equipment for a medium-sized urban distribution substation in West Africa, requiring redundancy and rapid on-site commissioning. Equipment options described by Reroy Electric include pre-fabricated compact substations (capacities e.g., 500 kVA, 11kV/415V, certified to IEC 62271-202). Such substations typically integrate HV (high voltage) and LV switchgear in weatherproof enclosures, allowing minimal site preparation and shortened commissioning time. During testing, the engineer would verify transformer polarity, insulation resistance, and function of protection relays. Practical lesson: rapid-deploy packages can reduce project risk, but require careful pre-delivery specification and site compatibility review.
+
+Assessment and Limitations
+The company states that manufacturing is ISO 9001:2015 certified, and products comply with international standards. No independent verification or audit information is provided here—engineers must always confirm current certificates and product suitability with suppliers before selection or commissioning, especially for projects with strict regulatory oversight. Custom solutions (e.g., non-standard voltage ratings, specific cooling or enclosure needs) are reportedly available via direct engagement with the engineering team.
+
+Engineering Takeaway
+For engineers, understanding the standards cited (IEC/BS/UL), transformer types (oil-immersed, dry-type), and cable classes (LV, MV) is essential for specifying equipment that will integrate safely and reliably into local grids. The described portfolio addresses core requirements for urban, industrial, and governmental infrastructure in West Africa. Key practical lesson: verify compatibility of equipment standards with both regulatory and load requirements during project design and procurement.</description>
+<enclosure url="https://images.electrolounge.net/post-fcd6cb3f77a61b75115cdffaf6c2e845e3e15c9bf74b623239d8c410c626a98b.png" length="255920" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Substation</category>
+<category>Reroy Electric</category>
+<category>Ghana</category>
+<category>Transformers</category>
+<category>Cable Manufacturing</category>
+<category>Grid Integration</category>
+<category>West Africa</category>
+<category>Engineering Standards</category>
+<category>Infrastructure</category>
+<category>Companies</category>
+<category>Energy Industry</category>
+<category>Substations</category>
+<pubDate>Thu, 29 Oct 2026 09:29:12 GMT</pubDate>
+<source url="https://www.reroyelectric.com/en/about">Electro Lounge market radar</source>
+</item>
+<item>
+<title>Understanding CEEG’s Role in Global Power Distribution and Substation Applications</title>
+<link>https://rashedgrid-cyber.github.io/electro-lounge/posts/1c5fdf16015382b5.html</link>
+<guid isPermaLink="true">https://www.ceegenergy.com/en/</guid>
+<description>Why read this? Early-career electrical engineers will gain a principled understanding of how power transmission and distribution equipment, specifically transformers, enable reliable energy delivery across complex sectors including substations, data centers, transit, and renewable integration. This article highlights CEEG’s reported product scope and use cases, then provides a practical scenario for integrating dry-type or oil-immersed transformers within a substation, supporting safe, stable operation.
+
+Company Profile and Scope (Reported Claims)
+According to its official website, CEEG states it has developed core capabilities in power transmission and distribution, energy internet, and new energy storage solutions since 1990. The company claims to serve over 150 countries, delivering products such as dry-type transformers, oil-immersed transformers, megawatt charging substations, mining transformers, and prefabricated substations. These offerings are described as supporting applications in sectors like rail transit, coal mining, hydrogen production, and high-power charging infrastructure. CEEG claims its solutions address project types ranging from traditional substations to specialized energy storage and green hydrogen systems.
+
+Transformer Applications: Substation Illustration
+In a typical substation scenario, power must transition safely from high-voltage transmission to distribution-level voltages. A large oil-immersed transformer, as listed by CEEG, steps down the incoming voltage (for example, 220 kV to 35 kV), enabling power delivery to local grids or facilities. According to the company’s description, dry-type transformers—placed closer to sensitive installations like data centers or industrial zones—offer enhanced safety through improved insulation and should meet Class H or similar requirements for operational environments with strict fire or maintenance regulations.
+
+Worked Example: Fault Ride-through and Protection
+Imagine installing a dry-type transformer for a data center connected downstream of a 110 kV substation bus. If a transient overcurrent or short circuit occurs, proper relay coordination and circuit breaker response must initiate to isolate the transformer and prevent cascading failures. In this situation, transformer cooling class, short-circuit withstand rating, and O&amp;M (operation and maintenance) protocols directly affect downtime and long-term reliability—all factors mentioned in the context of CEEG’s equipment claims.
+
+Limitation and Practical Lesson
+Before selecting any transformer or integrated substation equipment, it is essential to independently verify the manufacturer’s latest technical datasheets, project track records, and international certification status. Equipment performance depends on site-specific requirements, load profiles, and protective scheme coordination. Therefore, early dialogue with suppliers and commissioning engineers is necessary to avoid misapplication or regulatory noncompliance.
+
+Summary
+This overview provides a conditional look at CEEG’s stated capabilities in global power delivery and illustrates transformer integration in substation contexts. Readers should treat all company statements as unverified and consult directly with technical teams or independent experts to confirm suitability for actual projects.</description>
+<enclosure url="https://images.electrolounge.net/post-333bed274a8fdcd16485f5488af9f32c5fa1152dba9922223d2d3214bf75ac8f.png" length="765867" type="image/png" />
+<category>Electro Lounge</category>
+<category>Electrical Engineering</category>
+<category>Power Systems</category>
+<category>Substation</category>
+<category>CEEG</category>
+<category>Global</category>
+<category>Companies</category>
+<category>Energy Industry</category>
+<category>Substations</category>
+<category>Transformers</category>
+<pubDate>Thu, 29 Oct 2026 09:29:12 GMT</pubDate>
+<source url="https://www.ceegenergy.com/en/">Electro Lounge market radar</source>
+</item>
 </channel>
 
 </rss>
